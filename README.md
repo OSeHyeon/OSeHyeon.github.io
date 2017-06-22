@@ -1,9 +1,7 @@
 # Term Project Tetris
-
 Tetris for linux
 
 ## How to move
-
 move with keyboard UP DOWN LEFT RIGHT
 
 UP for block rotation
@@ -16,7 +14,6 @@ RIGHT for right move
 
 
 ## Play video
-
 https://youtu.be/KMgdPMkN2Kk
 
 ## Doxygen
