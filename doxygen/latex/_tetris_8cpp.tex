@@ -1,0 +1,103 @@
+\hypertarget{_tetris_8cpp}{}\section{Tetris.\+cpp 파일 참조}
+\label{_tetris_8cpp}\index{Tetris.\+cpp@{Tetris.\+cpp}}
+
+
+main  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$termios.\+h$>$}\\*
+{\ttfamily \#include $<$time.\+h$>$}\\*
+{\ttfamily \#include $<$sys/types.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}myio.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Block.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Game\+Logic.\+h\char`\"{}}\\*
+Tetris.\+cpp에 대한 include 의존 그래프
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_tetris_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{함수}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{_tetris_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+\subsection*{변수}
+\begin{DoxyCompactItemize}
+\item 
+struct termios initial\+\_\+settings \hyperlink{_tetris_8cpp_a39f7ba160e6925d4fcb655d71cc2c2ab}{new\+\_\+settings}
+\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+main 
+
+
+
+\subsection{함수 문서화}
+\index{Tetris.\+cpp@{Tetris.\+cpp}!main@{main}}
+\index{main@{main}!Tetris.\+cpp@{Tetris.\+cpp}}
+\subsubsection[{\texorpdfstring{main(int argc, char $\ast$argv[])}{main(int argc, char *argv[])}}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}\hypertarget{_tetris_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{}\label{_tetris_8cpp_a0ddf1224851353fc92bfbff6f499fa97}
+
+
+Tetris.\+cpp 파일의 22 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+22                                  \{
+23     srand(time(NULL));
+24 
+25     tcgetattr(0, &initial\_settings);
+26 
+27     \hyperlink{_tetris_8cpp_a39f7ba160e6925d4fcb655d71cc2c2ab}{new\_settings} = initial\_settings;
+28     \hyperlink{_tetris_8cpp_a39f7ba160e6925d4fcb655d71cc2c2ab}{new\_settings}.c\_lflag &= ~ICANON;
+29     \hyperlink{_tetris_8cpp_a39f7ba160e6925d4fcb655d71cc2c2ab}{new\_settings}.c\_lflag &= ~ECHO;
+30     \hyperlink{_tetris_8cpp_a39f7ba160e6925d4fcb655d71cc2c2ab}{new\_settings}.c\_lflag &= ~ISIG;
+31     \hyperlink{_tetris_8cpp_a39f7ba160e6925d4fcb655d71cc2c2ab}{new\_settings}.c\_cc[VMIN] = 0;
+32     \hyperlink{_tetris_8cpp_a39f7ba160e6925d4fcb655d71cc2c2ab}{new\_settings}.c\_cc[VTIME] = 0;
+33     tcsetattr(0, TCSANOW, &\hyperlink{_tetris_8cpp_a39f7ba160e6925d4fcb655d71cc2c2ab}{new\_settings});
+34     \hyperlink{class_game_logic}{GameLogic} game = \hyperlink{class_game_logic}{GameLogic}();
+35 
+36     system(\textcolor{stringliteral}{"clear"});
+37     \textcolor{comment}{//  sendScore(100);}
+38     \textcolor{keywordflow}{while} (game.\hyperlink{class_game_logic_a6a95fb9e16b411f1149dcdb463cdc3a5}{isRun}) \{
+39         game.\hyperlink{class_game_logic_aeb7d3db8014da87a18ac744d9f77131d}{start}();
+40     \}
+41 
+42     tcsetattr(0, TCSANOW, &initial\_settings);
+43     printf(\textcolor{stringliteral}{"\(\backslash\)033[0m"});
+44     system(\textcolor{stringliteral}{"clear"});
+45     \textcolor{keywordflow}{return} 0;
+46 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_tetris_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{변수 문서화}
+\index{Tetris.\+cpp@{Tetris.\+cpp}!new\+\_\+settings@{new\+\_\+settings}}
+\index{new\+\_\+settings@{new\+\_\+settings}!Tetris.\+cpp@{Tetris.\+cpp}}
+\subsubsection[{\texorpdfstring{new\+\_\+settings}{new_settings}}]{\setlength{\rightskip}{0pt plus 5cm}struct termios initial\+\_\+settings new\+\_\+settings}\hypertarget{_tetris_8cpp_a39f7ba160e6925d4fcb655d71cc2c2ab}{}\label{_tetris_8cpp_a39f7ba160e6925d4fcb655d71cc2c2ab}
+
+
+Tetris.\+cpp 파일의 20 번째 라인에서 정의되었습니다.
+

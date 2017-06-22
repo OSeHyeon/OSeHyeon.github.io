@@ -1,0 +1,1101 @@
+\hypertarget{class_game_logic}{}\section{Game\+Logic 클래스 참조}
+\label{class_game_logic}\index{Game\+Logic@{Game\+Logic}}
+
+
+{\ttfamily \#include $<$Game\+Logic.\+h$>$}
+
+
+
+Game\+Logic에 대한 협력 다이어그램\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_game_logic__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_game_logic_aeb7d3db8014da87a18ac744d9f77131d}{start} ()
+\item 
+void \hyperlink{class_game_logic_a0e6c1ee03971cf619212f8bb4d5fbc83}{move\+Left} ()
+\item 
+void \hyperlink{class_game_logic_a6213333800f3aa800ea448ad3ee3ea7c}{move\+Right} ()
+\item 
+void \hyperlink{class_game_logic_a36b04a5ca335351249db8cc77019c216}{move\+Down} ()
+\item 
+void \hyperlink{class_game_logic_abd2dece64def6dc89e0b116fdca83483}{transforse} ()
+\item 
+void \hyperlink{class_game_logic_a90faee03fd4311eab796ae7dc582078d}{drop} ()
+\item 
+void \hyperlink{class_game_logic_ad0f9f0e6c978a3b3fa1ff7a2a3d92563}{print\+Block} ()
+\item 
+\hyperlink{class_game_logic_a996cd781691c36922e7ce792fcb21640}{Game\+Logic} ()
+\item 
+virtual \hyperlink{class_game_logic_a63a7acf778535b5f74d469de2cd39b16}{$\sim$\+Game\+Logic} ()
+\end{DoxyCompactItemize}
+\subsection*{Public 속성}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_game_logic_a64ebe1cc14b91b935608ae4455fe3745}{score}
+\item 
+bool \hyperlink{class_game_logic_a6a95fb9e16b411f1149dcdb463cdc3a5}{is\+Run}
+\item 
+int \hyperlink{class_game_logic_ab9459c489b9c7bba90895756f373afc6}{interval}
+\item 
+int \hyperlink{class_game_logic_ab630a474170a2878d0c5ba8556e3fb39}{clear\+Lines}
+\item 
+char $\ast$ \hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board} \mbox{[}\hyperlink{_game_logic_8h_af728b7647e0b8c49832983a31f9a2e9b}{H\+E\+I\+G\+HT}\mbox{]}
+\end{DoxyCompactItemize}
+\subsection*{Private 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_game_logic_aa94e4cc11eb878caf3b4889e267fd7d7}{clear\+Line} (int line)
+\item 
+void \hyperlink{class_game_logic_afabf48aab0520a7ecd576bfc178d4767}{check} (\hyperlink{class_block}{Block} \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block})
+\item 
+bool \hyperlink{class_game_logic_a1c534033fe42c8af4fb0e11e3fed2cfa}{is\+Collision} ()
+\item 
+void \hyperlink{class_game_logic_aff831622dc54c1737e76b00d0d44ccef}{refresh} ()
+\item 
+void \hyperlink{class_game_logic_a81fa5e44fb6dc431c926f7c3fd0b7cdb}{refresh\+Next\+Block} ()
+\item 
+void \hyperlink{class_game_logic_a3f19ca1ad6a1c829afe571f7ac25d3c5}{refresh\+Point} ()
+\item 
+void \hyperlink{class_game_logic_af6ba400e79f01e5c59f48f55273894e6}{game\+Over} ()
+\item 
+void \hyperlink{class_game_logic_abf26417f7a1fff03e6639b8bd69490f0}{game\+Clear} ()
+\item 
+void \hyperlink{class_game_logic_a70b7fcd97d321dfb9d2130f864ddac3b}{next\+Turn} ()
+\item 
+void \hyperlink{class_game_logic_a5cc64703af4a64975fe24aa5c1d3c711}{next\+Level} ()
+\begin{DoxyCompactList}\small\item\em level system \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private 속성}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_block}{Block} \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}
+\item 
+\hyperlink{class_block}{Block} \hyperlink{class_game_logic_a42f7be1948bf9cf0a8ff05d7544f62bc}{next}
+\item 
+bool \hyperlink{class_game_logic_ae09fc4252ad9db62b810117567783880}{is\+Not\+Game\+Over}
+\item 
+int \hyperlink{class_game_logic_aca26b3a67b4bb5d5d477f9873826aae8}{level}
+\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+
+
+Game\+Logic.\+h 파일의 15 번째 라인에서 정의되었습니다.
+
+
+
+\subsection{생성자 \& 소멸자 문서화}
+\index{Game\+Logic@{Game\+Logic}!Game\+Logic@{Game\+Logic}}
+\index{Game\+Logic@{Game\+Logic}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{Game\+Logic()}{GameLogic()}}]{\setlength{\rightskip}{0pt plus 5cm}Game\+Logic\+::\+Game\+Logic (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_game_logic_a996cd781691c36922e7ce792fcb21640}{}\label{class_game_logic_a996cd781691c36922e7ce792fcb21640}
+
+
+Game\+Logic.\+cpp 파일의 19 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+19                      \{
+20     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{_game_logic_8h_af728b7647e0b8c49832983a31f9a2e9b}{HEIGHT} + 1; i++) \{
+21         \hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[i] = \textcolor{keyword}{new} \textcolor{keywordtype}{char}[\hyperlink{_game_logic_8h_a9649ab8139c4c2ea5c93625b30d92a05}{WIDTH}];
+22         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < \hyperlink{_game_logic_8h_a9649ab8139c4c2ea5c93625b30d92a05}{WIDTH}; j++) \{
+23             \hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[i][j] = 0;
+24         \}
+25     \}
+26     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < \hyperlink{_game_logic_8h_a9649ab8139c4c2ea5c93625b30d92a05}{WIDTH}; j++) \{
+27         \hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[\hyperlink{_game_logic_8h_af728b7647e0b8c49832983a31f9a2e9b}{HEIGHT}][j] = 1;
+28     \}
+29 
+30     \hyperlink{class_game_logic_a6a95fb9e16b411f1149dcdb463cdc3a5}{isRun} = \textcolor{keyword}{true};
+31     \hyperlink{class_block_ad456f4794a480711f7057e1f270d93c2}{Block::zero}.\hyperlink{struct_point_a8c779e11e694b20e0946105a9f5de842}{x} = 6;
+32     \hyperlink{class_block_ad456f4794a480711f7057e1f270d93c2}{Block::zero}.\hyperlink{struct_point_a2e1b5fb2b2a83571f5c0bc0f66a73cf7}{y} = 2;
+33 \}
+\end{DoxyCode}
+\index{Game\+Logic@{Game\+Logic}!````~Game\+Logic@{$\sim$\+Game\+Logic}}
+\index{````~Game\+Logic@{$\sim$\+Game\+Logic}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{$\sim$\+Game\+Logic()}{~GameLogic()}}]{\setlength{\rightskip}{0pt plus 5cm}Game\+Logic\+::$\sim$\+Game\+Logic (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_game_logic_a63a7acf778535b5f74d469de2cd39b16}{}\label{class_game_logic_a63a7acf778535b5f74d469de2cd39b16}
+\begin{DoxyRefDesc}{할일}
+\item[\hyperlink{todo__todo000002}{할일}]Auto-\/generated destructor stub\end{DoxyRefDesc}
+
+
+Game\+Logic.\+cpp 파일의 35 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+35                       \{
+42     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{_game_logic_8h_af728b7647e0b8c49832983a31f9a2e9b}{HEIGHT} + 1; i++) \{
+43         \textcolor{keyword}{delete} \hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[i];
+44     \}
+45 \}
+\end{DoxyCode}
+
+
+\subsection{멤버 함수 문서화}
+\index{Game\+Logic@{Game\+Logic}!check@{check}}
+\index{check@{check}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{check(\+Block block)}{check(Block block)}}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Logic\+::check (
+\begin{DoxyParamCaption}
+\item[{{\bf Block}}]{block}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_game_logic_afabf48aab0520a7ecd576bfc178d4767}{}\label{class_game_logic_afabf48aab0520a7ecd576bfc178d4767}
+score system
+
+level up if clearline counts over 20
+
+score takes differnce with line\+Count make combo system
+
+Game\+Logic.\+cpp 파일의 225 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+225                                  \{
+226 
+227     \textcolor{keywordtype}{bool} needClear = \textcolor{keyword}{false};
+228     \textcolor{keywordtype}{bool} removeable;
+229     \textcolor{keywordtype}{int} lineCount = 0;
+230     \textcolor{keywordtype}{int} y = block.\hyperlink{class_block_aeb5dd312b719966752ba4b38720a4535}{current}.\hyperlink{struct_point_a2e1b5fb2b2a83571f5c0bc0f66a73cf7}{y} + block.\hyperlink{class_block_a8d97d8b0b6a09592ac007c13c3fa3867}{bottom};
+231 
+232     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < 4; i++) \{
+233         removeable = \textcolor{keyword}{true};
+234         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} x = 0; x < \hyperlink{_game_logic_8h_a9649ab8139c4c2ea5c93625b30d92a05}{WIDTH}; x++) \{
+235             \textcolor{keywordflow}{if} (!\hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[y][x]) \{
+236                 removeable = \textcolor{keyword}{false};
+237                 \textcolor{keywordflow}{break};
+238             \}
+239         \}
+240         \textcolor{keywordflow}{if} (removeable) \{
+241             \hyperlink{class_game_logic_aa94e4cc11eb878caf3b4889e267fd7d7}{clearLine}(y);
+242             needClear = \textcolor{keyword}{true};
+243             lineCount++;
+244         \} \textcolor{keywordflow}{else} \{
+245             y--;
+246         \}
+247     \}
+255     \textcolor{keywordflow}{switch} (lineCount) \{
+256     \textcolor{keywordflow}{case} 1:
+257         \hyperlink{class_game_logic_a64ebe1cc14b91b935608ae4455fe3745}{score} += 100;
+258         \textcolor{keywordflow}{break};
+259     \textcolor{keywordflow}{case} 2:
+260         \hyperlink{class_game_logic_a64ebe1cc14b91b935608ae4455fe3745}{score} += 300;
+261         \textcolor{keywordflow}{break};
+262     \textcolor{keywordflow}{case} 3:
+263         \hyperlink{class_game_logic_a64ebe1cc14b91b935608ae4455fe3745}{score} += 500;
+264         \textcolor{keywordflow}{break};
+265     \textcolor{keywordflow}{case} 4:
+266         \hyperlink{class_game_logic_a64ebe1cc14b91b935608ae4455fe3745}{score} += 800;
+267         \textcolor{keywordflow}{break};
+268     \textcolor{keywordflow}{default}:
+269         \textcolor{keywordflow}{break};
+270     \}
+271     \hyperlink{class_game_logic_ab630a474170a2878d0c5ba8556e3fb39}{clearLines} += lineCount;
+272     \textcolor{keywordtype}{char} l[4];
+273     sprintf(l, \textcolor{stringliteral}{"%d"}, \hyperlink{class_game_logic_ab630a474170a2878d0c5ba8556e3fb39}{clearLines});
+274     \hyperlink{myio_8cpp_afce36429cc875312f4476969820ebb51}{printColorString}(40, 15, 0, l);
+275     \textcolor{keywordflow}{if} (\hyperlink{class_game_logic_ab630a474170a2878d0c5ba8556e3fb39}{clearLines} >= 20) \{
+276         \hyperlink{class_game_logic_a5cc64703af4a64975fe24aa5c1d3c711}{nextLevel}();
+277 
+278     \}
+279     \textcolor{keywordflow}{if} (needClear)
+280         \hyperlink{class_game_logic_aff831622dc54c1737e76b00d0d44ccef}{refresh}();
+281 
+282 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_afabf48aab0520a7ecd576bfc178d4767_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_afabf48aab0520a7ecd576bfc178d4767_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Game\+Logic@{Game\+Logic}!clear\+Line@{clear\+Line}}
+\index{clear\+Line@{clear\+Line}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{clear\+Line(int line)}{clearLine(int line)}}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Logic\+::clear\+Line (
+\begin{DoxyParamCaption}
+\item[{int}]{line}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_game_logic_aa94e4cc11eb878caf3b4889e267fd7d7}{}\label{class_game_logic_aa94e4cc11eb878caf3b4889e267fd7d7}
+
+
+Game\+Logic.\+cpp 파일의 174 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+174                                \{
+175     \textcolor{keywordtype}{char} *line = \hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[l];
+176     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} y = l; y > 0; y--) \{
+177         \hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[y] = \hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[y - 1];
+178     \}
+179 
+180     \hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[0] = line;
+181     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} x = 0; x < \hyperlink{_game_logic_8h_a9649ab8139c4c2ea5c93625b30d92a05}{WIDTH}; x++) \{
+182         \hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[0][x] = 0;
+183     \}
+184 
+185 \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_aa94e4cc11eb878caf3b4889e267fd7d7_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Game\+Logic@{Game\+Logic}!drop@{drop}}
+\index{drop@{drop}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{drop()}{drop()}}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Logic\+::drop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_game_logic_a90faee03fd4311eab796ae7dc582078d}{}\label{class_game_logic_a90faee03fd4311eab796ae7dc582078d}
+
+
+Game\+Logic.\+cpp 파일의 147 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+147                      \{
+148 
+149     \textcolor{keywordflow}{while} (!\hyperlink{class_game_logic_a1c534033fe42c8af4fb0e11e3fed2cfa}{isCollision}())
+150         \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_a947d677f5229eabb9ceb291e3552773d}{moveDown}();
+151 
+152     \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_a8bf4fce7b2b837fd49726b6a7f17f4b0}{moveUp}();
+153 
+154     \hyperlink{class_game_logic_a70b7fcd97d321dfb9d2130f864ddac3b}{nextTurn}();
+155 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_a90faee03fd4311eab796ae7dc582078d_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_a90faee03fd4311eab796ae7dc582078d_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Game\+Logic@{Game\+Logic}!game\+Clear@{game\+Clear}}
+\index{game\+Clear@{game\+Clear}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{game\+Clear()}{gameClear()}}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Logic\+::game\+Clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_game_logic_abf26417f7a1fff03e6639b8bd69490f0}{}\label{class_game_logic_abf26417f7a1fff03e6639b8bd69490f0}
+
+
+Game\+Logic.\+cpp 파일의 198 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+198                           \{
+199 
+200 \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_abf26417f7a1fff03e6639b8bd69490f0_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Game\+Logic@{Game\+Logic}!game\+Over@{game\+Over}}
+\index{game\+Over@{game\+Over}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{game\+Over()}{gameOver()}}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Logic\+::game\+Over (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_game_logic_af6ba400e79f01e5c59f48f55273894e6}{}\label{class_game_logic_af6ba400e79f01e5c59f48f55273894e6}
+
+
+Game\+Logic.\+cpp 파일의 186 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+186                          \{
+187     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} x = 0; x < \hyperlink{_game_logic_8h_a9649ab8139c4c2ea5c93625b30d92a05}{WIDTH}; x++) \{
+188         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} y = 0; y < \hyperlink{_game_logic_8h_af728b7647e0b8c49832983a31f9a2e9b}{HEIGHT}; y++) \{
+189             \hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[y][x] = 0;
+190         \}
+191     \}
+192     \hyperlink{class_game_logic_aff831622dc54c1737e76b00d0d44ccef}{refresh}();
+193     
+194     \hyperlink{myio_8cpp_afce36429cc875312f4476969820ebb51}{printColorString}(\hyperlink{class_block_ad456f4794a480711f7057e1f270d93c2}{Block::zero}.x, \hyperlink{class_block_ad456f4794a480711f7057e1f270d93c2}{Block::zero}.y + 10, 
+      \hyperlink{myio_8h_aba2a7fe77a7501e5844370eec0185207}{COLOR\_BLACK}, \textcolor{stringliteral}{"gameover"});
+195     \hyperlink{class_game_logic_ae09fc4252ad9db62b810117567783880}{isNotGameOver}=\textcolor{keyword}{false};
+196 
+197 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_af6ba400e79f01e5c59f48f55273894e6_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_af6ba400e79f01e5c59f48f55273894e6_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Game\+Logic@{Game\+Logic}!is\+Collision@{is\+Collision}}
+\index{is\+Collision@{is\+Collision}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{is\+Collision()}{isCollision()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Game\+Logic\+::is\+Collision (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_game_logic_a1c534033fe42c8af4fb0e11e3fed2cfa}{}\label{class_game_logic_a1c534033fe42c8af4fb0e11e3fed2cfa}
+
+
+Game\+Logic.\+cpp 파일의 157 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+157                             \{
+158     \textcolor{keywordtype}{int} x, y;
+159     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < 4; i++) \{
+160         x = \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_aeb5dd312b719966752ba4b38720a4535}{current}.\hyperlink{struct_point_a8c779e11e694b20e0946105a9f5de842}{x} + \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_ae1a4e97236e1e5f04d21fc9227b8c3a8}{shape}[i].\hyperlink{struct_point_a8c779e11e694b20e0946105a9f5de842}{x};
+161         y = \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_aeb5dd312b719966752ba4b38720a4535}{current}.\hyperlink{struct_point_a2e1b5fb2b2a83571f5c0bc0f66a73cf7}{y} + \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_ae1a4e97236e1e5f04d21fc9227b8c3a8}{shape}[i].\hyperlink{struct_point_a2e1b5fb2b2a83571f5c0bc0f66a73cf7}{y};
+162 
+163         \textcolor{keywordflow}{if} (x >= \hyperlink{_game_logic_8h_a9649ab8139c4c2ea5c93625b30d92a05}{WIDTH} || y > \hyperlink{_game_logic_8h_af728b7647e0b8c49832983a31f9a2e9b}{HEIGHT} || x < 0) \{
+164             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+165         \}
+166 
+167         \textcolor{keywordflow}{if} (\hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[y][x]) \{
+168             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+169         \}
+170     \}
+171     \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+172 \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_a1c534033fe42c8af4fb0e11e3fed2cfa_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Game\+Logic@{Game\+Logic}!move\+Down@{move\+Down}}
+\index{move\+Down@{move\+Down}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{move\+Down()}{moveDown()}}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Logic\+::move\+Down (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_game_logic_a36b04a5ca335351249db8cc77019c216}{}\label{class_game_logic_a36b04a5ca335351249db8cc77019c216}
+보드에 저장
+
+Game\+Logic.\+cpp 파일의 107 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+107                          \{
+108     \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_a947d677f5229eabb9ceb291e3552773d}{moveDown}();
+109     \textcolor{keywordflow}{if} (\hyperlink{class_game_logic_a1c534033fe42c8af4fb0e11e3fed2cfa}{isCollision}()) \{
+110         \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_a8bf4fce7b2b837fd49726b6a7f17f4b0}{moveUp}();
+117         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < 4; i++) \{
+118             \hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[\hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_aeb5dd312b719966752ba4b38720a4535}{current}.\hyperlink{struct_point_a2e1b5fb2b2a83571f5c0bc0f66a73cf7}{y} + \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_ae1a4e97236e1e5f04d21fc9227b8c3a8}{shape}[i].\hyperlink{struct_point_a2e1b5fb2b2a83571f5c0bc0f66a73cf7}{y}][
+      \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_aeb5dd312b719966752ba4b38720a4535}{current}.\hyperlink{struct_point_a8c779e11e694b20e0946105a9f5de842}{x} + \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_ae1a4e97236e1e5f04d21fc9227b8c3a8}{shape}[i].\hyperlink{struct_point_a8c779e11e694b20e0946105a9f5de842}{x}] = \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_a11fa34418f20b6613d0ceeea8fc71d25}{color};
+119         \}
+120         \hyperlink{class_game_logic_a70b7fcd97d321dfb9d2130f864ddac3b}{nextTurn}();
+121     \}
+122 
+123 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_a36b04a5ca335351249db8cc77019c216_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_a36b04a5ca335351249db8cc77019c216_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Game\+Logic@{Game\+Logic}!move\+Left@{move\+Left}}
+\index{move\+Left@{move\+Left}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{move\+Left()}{moveLeft()}}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Logic\+::move\+Left (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_game_logic_a0e6c1ee03971cf619212f8bb4d5fbc83}{}\label{class_game_logic_a0e6c1ee03971cf619212f8bb4d5fbc83}
+
+
+Game\+Logic.\+cpp 파일의 124 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+124                          \{
+125     \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_af304df3662f2c6feec7cfc232246ef29}{moveLeft}();
+126     \textcolor{keywordflow}{if} (\hyperlink{class_game_logic_a1c534033fe42c8af4fb0e11e3fed2cfa}{isCollision}())
+127         \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_a13d1f87524fed8d686a4d478e41d5096}{moveRight}();
+128 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{class_game_logic_a0e6c1ee03971cf619212f8bb4d5fbc83_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_a0e6c1ee03971cf619212f8bb4d5fbc83_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Game\+Logic@{Game\+Logic}!move\+Right@{move\+Right}}
+\index{move\+Right@{move\+Right}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{move\+Right()}{moveRight()}}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Logic\+::move\+Right (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_game_logic_a6213333800f3aa800ea448ad3ee3ea7c}{}\label{class_game_logic_a6213333800f3aa800ea448ad3ee3ea7c}
+
+
+Game\+Logic.\+cpp 파일의 130 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+130                           \{
+131     \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_a13d1f87524fed8d686a4d478e41d5096}{moveRight}();
+132     \textcolor{keywordflow}{if} (\hyperlink{class_game_logic_a1c534033fe42c8af4fb0e11e3fed2cfa}{isCollision}())
+133         \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_af304df3662f2c6feec7cfc232246ef29}{moveLeft}();
+134 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_a6213333800f3aa800ea448ad3ee3ea7c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_a6213333800f3aa800ea448ad3ee3ea7c_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Game\+Logic@{Game\+Logic}!next\+Level@{next\+Level}}
+\index{next\+Level@{next\+Level}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{next\+Level()}{nextLevel()}}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Logic\+::next\+Level (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_game_logic_a5cc64703af4a64975fe24aa5c1d3c711}{}\label{class_game_logic_a5cc64703af4a64975fe24aa5c1d3c711}
+
+
+level system 
+
+interval for make difference with level
+
+game clear if interval take negative value 
+
+Game\+Logic.\+cpp 파일의 331 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+331                           \{
+332     \hyperlink{myio_8cpp_afce36429cc875312f4476969820ebb51}{printColorString}(30, 3, 0, \textcolor{stringliteral}{"LEVEL"});
+333     \textcolor{keywordtype}{char} \hyperlink{class_game_logic_a64ebe1cc14b91b935608ae4455fe3745}{score}[10];
+334     sprintf(score, \textcolor{stringliteral}{"%2d"}, \hyperlink{class_game_logic_aca26b3a67b4bb5d5d477f9873826aae8}{level});
+335     \hyperlink{myio_8cpp_afce36429cc875312f4476969820ebb51}{printColorString}(30, 4, 0, score);
+336     \hyperlink{class_game_logic_ab630a474170a2878d0c5ba8556e3fb39}{clearLines} = 0;
+337 
+338     \hyperlink{class_game_logic_ab9459c489b9c7bba90895756f373afc6}{interval} -= 5000;
+339     \textcolor{keywordflow}{if} (\hyperlink{class_game_logic_ab9459c489b9c7bba90895756f373afc6}{interval} <= 0) \{
+340         \hyperlink{class_game_logic_abf26417f7a1fff03e6639b8bd69490f0}{gameClear}();
+341     \}
+342 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_a5cc64703af4a64975fe24aa5c1d3c711_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_a5cc64703af4a64975fe24aa5c1d3c711_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Game\+Logic@{Game\+Logic}!next\+Turn@{next\+Turn}}
+\index{next\+Turn@{next\+Turn}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{next\+Turn()}{nextTurn()}}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Logic\+::next\+Turn (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_game_logic_a70b7fcd97d321dfb9d2130f864ddac3b}{}\label{class_game_logic_a70b7fcd97d321dfb9d2130f864ddac3b}
+보드에 저장
+
+새블럭 생성
+
+Game\+Logic.\+cpp 파일의 201 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+201                          \{
+206     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < 4; i++) \{
+207         \hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[\hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_aeb5dd312b719966752ba4b38720a4535}{current}.\hyperlink{struct_point_a2e1b5fb2b2a83571f5c0bc0f66a73cf7}{y} + \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_ae1a4e97236e1e5f04d21fc9227b8c3a8}{shape}[i].\hyperlink{struct_point_a2e1b5fb2b2a83571f5c0bc0f66a73cf7}{y}][
+      \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_aeb5dd312b719966752ba4b38720a4535}{current}.\hyperlink{struct_point_a8c779e11e694b20e0946105a9f5de842}{x} + \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_ae1a4e97236e1e5f04d21fc9227b8c3a8}{shape}[i].\hyperlink{struct_point_a8c779e11e694b20e0946105a9f5de842}{x}] = \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_a11fa34418f20b6613d0ceeea8fc71d25}{color};
+208     \}
+209     \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_a24e9792df444cc3cd9cd9c28a62f5abd}{refresh}();
+210     \hyperlink{class_game_logic_afabf48aab0520a7ecd576bfc178d4767}{check}(\hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block});
+216     \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block} = \hyperlink{class_game_logic_a42f7be1948bf9cf0a8ff05d7544f62bc}{next};
+217     \hyperlink{class_game_logic_a42f7be1948bf9cf0a8ff05d7544f62bc}{next} = \hyperlink{class_block}{Block}();
+218     \hyperlink{class_game_logic_a81fa5e44fb6dc431c926f7c3fd0b7cdb}{refreshNextBlock}();
+219 
+220     \textcolor{keywordflow}{if} (\hyperlink{class_game_logic_a1c534033fe42c8af4fb0e11e3fed2cfa}{isCollision}()) \{
+221         \hyperlink{class_game_logic_af6ba400e79f01e5c59f48f55273894e6}{gameOver}();
+222     \}
+223 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_a70b7fcd97d321dfb9d2130f864ddac3b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_a70b7fcd97d321dfb9d2130f864ddac3b_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Game\+Logic@{Game\+Logic}!print\+Block@{print\+Block}}
+\index{print\+Block@{print\+Block}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{print\+Block()}{printBlock()}}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Logic\+::print\+Block (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_game_logic_ad0f9f0e6c978a3b3fa1ff7a2a3d92563}{}\label{class_game_logic_ad0f9f0e6c978a3b3fa1ff7a2a3d92563}
+
+
+Game\+Logic.\+cpp 파일의 103 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+103                            \{
+104     \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_a24e9792df444cc3cd9cd9c28a62f5abd}{refresh}();
+105 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_ad0f9f0e6c978a3b3fa1ff7a2a3d92563_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_ad0f9f0e6c978a3b3fa1ff7a2a3d92563_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Game\+Logic@{Game\+Logic}!refresh@{refresh}}
+\index{refresh@{refresh}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{refresh()}{refresh()}}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Logic\+::refresh (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_game_logic_aff831622dc54c1737e76b00d0d44ccef}{}\label{class_game_logic_aff831622dc54c1737e76b00d0d44ccef}
+
+
+Game\+Logic.\+cpp 파일의 284 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+284                         \{
+285 
+286     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{_game_logic_8h_af728b7647e0b8c49832983a31f9a2e9b}{HEIGHT}; i++) \{
+287         \hyperlink{myio_8cpp_ae824443b3f661414ba1f2718e17fe97d}{gotoxy}(\hyperlink{class_block_ad456f4794a480711f7057e1f270d93c2}{Block::zero}.x - 2, \hyperlink{class_block_ad456f4794a480711f7057e1f270d93c2}{Block::zero}.y + i);
+288         putchar(\textcolor{charliteral}{'*'});
+289 
+290         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} x = 0; x < \hyperlink{_game_logic_8h_a9649ab8139c4c2ea5c93625b30d92a05}{WIDTH}; x++) \{
+291             \textcolor{keywordflow}{if} (\hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[i][x]) \{
+292                 \hyperlink{myio_8cpp_afce36429cc875312f4476969820ebb51}{printColorString}(x * 2 + \hyperlink{class_block_ad456f4794a480711f7057e1f270d93c2}{Block::zero}.x, 
+      \hyperlink{class_block_ad456f4794a480711f7057e1f270d93c2}{Block::zero}.y + i, \hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[i][x], \hyperlink{class_block_a4cb64c2c20884eed68c24c6147f68514}{Block::BLOCK});
+293             \} \textcolor{keywordflow}{else} \{
+294                 \hyperlink{myio_8cpp_afce36429cc875312f4476969820ebb51}{printColorString}(x * 2 + \hyperlink{class_block_ad456f4794a480711f7057e1f270d93c2}{Block::zero}.x, 
+      \hyperlink{class_block_ad456f4794a480711f7057e1f270d93c2}{Block::zero}.y + i, \hyperlink{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{board}[i][x], \hyperlink{class_block_a11bcda9589b54be35a8905ca7be7310e}{Block::CLEAR});
+295             \}
+296         \}
+297         \hyperlink{myio_8cpp_ae824443b3f661414ba1f2718e17fe97d}{gotoxy}(\hyperlink{class_block_ad456f4794a480711f7057e1f270d93c2}{Block::zero}.x + WIDTH * 2, \hyperlink{class_block_ad456f4794a480711f7057e1f270d93c2}{Block::zero}.y + i);
+298         putchar(\textcolor{charliteral}{'*'});
+299     \}
+300     \hyperlink{myio_8cpp_ae824443b3f661414ba1f2718e17fe97d}{gotoxy}(\hyperlink{class_block_ad456f4794a480711f7057e1f270d93c2}{Block::zero}.x - 2, \hyperlink{class_block_ad456f4794a480711f7057e1f270d93c2}{Block::zero}.y + HEIGHT);
+301     printf(\textcolor{stringliteral}{"***********************"});
+302     \hyperlink{class_game_logic_a81fa5e44fb6dc431c926f7c3fd0b7cdb}{refreshNextBlock}();
+303     \hyperlink{class_game_logic_a3f19ca1ad6a1c829afe571f7ac25d3c5}{refreshPoint}();
+304 
+305 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_aff831622dc54c1737e76b00d0d44ccef_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_aff831622dc54c1737e76b00d0d44ccef_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Game\+Logic@{Game\+Logic}!refresh\+Next\+Block@{refresh\+Next\+Block}}
+\index{refresh\+Next\+Block@{refresh\+Next\+Block}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{refresh\+Next\+Block()}{refreshNextBlock()}}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Logic\+::refresh\+Next\+Block (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_game_logic_a81fa5e44fb6dc431c926f7c3fd0b7cdb}{}\label{class_game_logic_a81fa5e44fb6dc431c926f7c3fd0b7cdb}
+
+
+Game\+Logic.\+cpp 파일의 307 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+307                                  \{
+308     \hyperlink{myio_8cpp_afce36429cc875312f4476969820ebb51}{printColorString}(30, 7, 0, \textcolor{stringliteral}{"┌────────┐"});
+309     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < 4; i++) \{
+310         \hyperlink{myio_8cpp_afce36429cc875312f4476969820ebb51}{printColorString}(30, 8 + i, 0, \textcolor{stringliteral}{"│        │"});
+311     \}
+312     \hyperlink{myio_8cpp_afce36429cc875312f4476969820ebb51}{printColorString}(30, 12, 0, \textcolor{stringliteral}{"└────────┘"});
+313     \hyperlink{class_game_logic_a42f7be1948bf9cf0a8ff05d7544f62bc}{next}.\hyperlink{class_block_a5ea55096829ff27961b989409283cd86}{clear}(31, 8);
+314     \hyperlink{class_game_logic_a42f7be1948bf9cf0a8ff05d7544f62bc}{next}.\hyperlink{class_block_a6735096bf1a9678a688b98782bd1b226}{print}(31, 8);
+315 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_a81fa5e44fb6dc431c926f7c3fd0b7cdb_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_a81fa5e44fb6dc431c926f7c3fd0b7cdb_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Game\+Logic@{Game\+Logic}!refresh\+Point@{refresh\+Point}}
+\index{refresh\+Point@{refresh\+Point}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{refresh\+Point()}{refreshPoint()}}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Logic\+::refresh\+Point (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_game_logic_a3f19ca1ad6a1c829afe571f7ac25d3c5}{}\label{class_game_logic_a3f19ca1ad6a1c829afe571f7ac25d3c5}
+
+
+Game\+Logic.\+cpp 파일의 317 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+317                              \{
+318     \hyperlink{myio_8cpp_afce36429cc875312f4476969820ebb51}{printColorString}(30, 5, 0, \textcolor{stringliteral}{"SCORE"});
+319     \textcolor{keywordtype}{char} \hyperlink{class_game_logic_a64ebe1cc14b91b935608ae4455fe3745}{score}[10];
+320     sprintf(score, \textcolor{stringliteral}{"%08d"}, this->score);
+321     \hyperlink{myio_8cpp_afce36429cc875312f4476969820ebb51}{printColorString}(30, 6, 0, score);
+322 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_a3f19ca1ad6a1c829afe571f7ac25d3c5_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_a3f19ca1ad6a1c829afe571f7ac25d3c5_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Game\+Logic@{Game\+Logic}!start@{start}}
+\index{start@{start}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{start()}{start()}}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Logic\+::start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_game_logic_aeb7d3db8014da87a18ac744d9f77131d}{}\label{class_game_logic_aeb7d3db8014da87a18ac744d9f77131d}
+
+
+Game\+Logic.\+cpp 파일의 47 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+47                       \{
+48     \hyperlink{class_game_logic_ae09fc4252ad9db62b810117567783880}{isNotGameOver}=\textcolor{keyword}{true};
+49     \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block} = \hyperlink{class_block}{Block}();
+50     \hyperlink{class_game_logic_a42f7be1948bf9cf0a8ff05d7544f62bc}{next} = \hyperlink{class_block}{Block}();
+51     \hyperlink{class_game_logic_a64ebe1cc14b91b935608ae4455fe3745}{score} = 0;
+52     \hyperlink{class_game_logic_ab9459c489b9c7bba90895756f373afc6}{interval} = 105000;
+53     \hyperlink{class_game_logic_ab630a474170a2878d0c5ba8556e3fb39}{clearLines} = 0;
+54     \hyperlink{class_game_logic_aca26b3a67b4bb5d5d477f9873826aae8}{level} = 1;
+55     \hyperlink{class_game_logic_a5cc64703af4a64975fe24aa5c1d3c711}{nextLevel}();
+56     \hyperlink{class_game_logic_aff831622dc54c1737e76b00d0d44ccef}{refresh}();
+57     \textcolor{keywordtype}{int} n;
+58     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{char} key;
+59     clock\_t refresh1 = clock();
+60     clock\_t current = refresh1;
+61     clock\_t blockDown = refresh1;
+62     \textcolor{keywordflow}{while} (\hyperlink{class_game_logic_ae09fc4252ad9db62b810117567783880}{isNotGameOver}) \{
+63         current = clock();
+64         \textcolor{keywordflow}{if} (current - refresh1 > 16000) \{
+65             refresh1 = current;
+66             \hyperlink{class_game_logic_ad0f9f0e6c978a3b3fa1ff7a2a3d92563}{printBlock}();
+67         \}
+68         \textcolor{keywordflow}{if} (current - blockDown > \hyperlink{class_game_logic_ab9459c489b9c7bba90895756f373afc6}{interval}) \{
+69             \hyperlink{class_game_logic_a36b04a5ca335351249db8cc77019c216}{moveDown}();
+70             blockDown = current;
+71         \}
+72         n = getchar();
+73         \textcolor{keywordflow}{if} (n != EOF) \{
+74             key = n;
+75             \textcolor{keywordflow}{switch} (key) \{
+76             \textcolor{keywordflow}{case} \textcolor{charliteral}{'Q'}:
+77                 \hyperlink{class_game_logic_ae09fc4252ad9db62b810117567783880}{isNotGameOver}=\textcolor{keyword}{false};
+78                 this->\hyperlink{class_game_logic_a6a95fb9e16b411f1149dcdb463cdc3a5}{isRun} = \textcolor{keyword}{false};
+79                 \textcolor{keywordflow}{break};
+80             \textcolor{keywordflow}{case} \hyperlink{_game_logic_8cpp_a1965eaca47dbf3f87acdafc2208f04eb}{UP}:
+81                 \hyperlink{class_game_logic_abd2dece64def6dc89e0b116fdca83483}{transforse}();
+82                 \textcolor{keywordflow}{break};
+83             \textcolor{keywordflow}{case} \hyperlink{_game_logic_8cpp_a4193cd1c8c2e6ebd0e056fa2364a663f}{DOWN}:
+84                 \hyperlink{class_game_logic_a36b04a5ca335351249db8cc77019c216}{moveDown}();
+85                 \textcolor{keywordflow}{break};
+86             \textcolor{keywordflow}{case} \hyperlink{_game_logic_8cpp_a80fb826a684cf3f0d306b22aa100ddac}{RIGHT}:
+87                 \hyperlink{class_game_logic_a6213333800f3aa800ea448ad3ee3ea7c}{moveRight}();
+88                 \textcolor{keywordflow}{break};
+89             \textcolor{keywordflow}{case} \hyperlink{_game_logic_8cpp_a437ef08681e7210d6678427030446a54}{LEFT}:
+90                 \hyperlink{class_game_logic_a0e6c1ee03971cf619212f8bb4d5fbc83}{moveLeft}();
+91                 \textcolor{keywordflow}{break};
+92             \textcolor{keywordflow}{case} \textcolor{charliteral}{' '}:
+93                 \hyperlink{class_game_logic_a90faee03fd4311eab796ae7dc582078d}{drop}();
+94                 \textcolor{keywordflow}{break};
+95             \textcolor{keywordflow}{default}:
+96                 \textcolor{keywordflow}{break};
+97             \}
+98         \}
+99         \hyperlink{myio_8cpp_ae824443b3f661414ba1f2718e17fe97d}{gotoxy}(80, 24);
+100     \}
+101 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_aeb7d3db8014da87a18ac744d9f77131d_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{class_game_logic_aeb7d3db8014da87a18ac744d9f77131d_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Game\+Logic@{Game\+Logic}!transforse@{transforse}}
+\index{transforse@{transforse}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{transforse()}{transforse()}}]{\setlength{\rightskip}{0pt plus 5cm}void Game\+Logic\+::transforse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_game_logic_abd2dece64def6dc89e0b116fdca83483}{}\label{class_game_logic_abd2dece64def6dc89e0b116fdca83483}
+
+
+Game\+Logic.\+cpp 파일의 136 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+136                            \{
+137     \hyperlink{class_block}{Block} temp = \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block};
+138     \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_a9cc446ec51a125982c41e67af63059b0}{transpose}();
+139     \textcolor{keywordflow}{if} (\hyperlink{class_game_logic_a1c534033fe42c8af4fb0e11e3fed2cfa}{isCollision}()) \{
+140         \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_a18bfe78145650d1b13267000feea278b}{reversTranspose}();
+141     \} \textcolor{keywordflow}{else} \{
+142         temp.\hyperlink{class_block_a5ea55096829ff27961b989409283cd86}{clear}();
+143         \hyperlink{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{block}.\hyperlink{class_block_a6735096bf1a9678a688b98782bd1b226}{print}();
+144     \}
+145 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_abd2dece64def6dc89e0b116fdca83483_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_logic_abd2dece64def6dc89e0b116fdca83483_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{멤버 데이타 문서화}
+\index{Game\+Logic@{Game\+Logic}!block@{block}}
+\index{block@{block}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{block}{block}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Block} Game\+Logic\+::block\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}{}\label{class_game_logic_a499d9b05317bb6a77bf3521f42a6638a}
+
+
+Game\+Logic.\+h 파일의 41 번째 라인에서 정의되었습니다.
+
+\index{Game\+Logic@{Game\+Logic}!board@{board}}
+\index{board@{board}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{board}{board}}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ Game\+Logic\+::board\mbox{[}{\bf H\+E\+I\+G\+HT}\mbox{]}}\hypertarget{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}{}\label{class_game_logic_a71071a20595279a580d18dfa60ed4a1c}
+
+
+Game\+Logic.\+h 파일의 22 번째 라인에서 정의되었습니다.
+
+\index{Game\+Logic@{Game\+Logic}!clear\+Lines@{clear\+Lines}}
+\index{clear\+Lines@{clear\+Lines}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{clear\+Lines}{clearLines}}]{\setlength{\rightskip}{0pt plus 5cm}int Game\+Logic\+::clear\+Lines}\hypertarget{class_game_logic_ab630a474170a2878d0c5ba8556e3fb39}{}\label{class_game_logic_ab630a474170a2878d0c5ba8556e3fb39}
+
+
+Game\+Logic.\+h 파일의 20 번째 라인에서 정의되었습니다.
+
+\index{Game\+Logic@{Game\+Logic}!interval@{interval}}
+\index{interval@{interval}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{interval}{interval}}]{\setlength{\rightskip}{0pt plus 5cm}int Game\+Logic\+::interval}\hypertarget{class_game_logic_ab9459c489b9c7bba90895756f373afc6}{}\label{class_game_logic_ab9459c489b9c7bba90895756f373afc6}
+
+
+Game\+Logic.\+h 파일의 19 번째 라인에서 정의되었습니다.
+
+\index{Game\+Logic@{Game\+Logic}!is\+Not\+Game\+Over@{is\+Not\+Game\+Over}}
+\index{is\+Not\+Game\+Over@{is\+Not\+Game\+Over}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{is\+Not\+Game\+Over}{isNotGameOver}}]{\setlength{\rightskip}{0pt plus 5cm}bool Game\+Logic\+::is\+Not\+Game\+Over\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_game_logic_ae09fc4252ad9db62b810117567783880}{}\label{class_game_logic_ae09fc4252ad9db62b810117567783880}
+
+
+Game\+Logic.\+h 파일의 43 번째 라인에서 정의되었습니다.
+
+\index{Game\+Logic@{Game\+Logic}!is\+Run@{is\+Run}}
+\index{is\+Run@{is\+Run}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{is\+Run}{isRun}}]{\setlength{\rightskip}{0pt plus 5cm}bool Game\+Logic\+::is\+Run}\hypertarget{class_game_logic_a6a95fb9e16b411f1149dcdb463cdc3a5}{}\label{class_game_logic_a6a95fb9e16b411f1149dcdb463cdc3a5}
+
+
+Game\+Logic.\+h 파일의 18 번째 라인에서 정의되었습니다.
+
+\index{Game\+Logic@{Game\+Logic}!level@{level}}
+\index{level@{level}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{level}{level}}]{\setlength{\rightskip}{0pt plus 5cm}int Game\+Logic\+::level\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_game_logic_aca26b3a67b4bb5d5d477f9873826aae8}{}\label{class_game_logic_aca26b3a67b4bb5d5d477f9873826aae8}
+
+
+Game\+Logic.\+h 파일의 55 번째 라인에서 정의되었습니다.
+
+\index{Game\+Logic@{Game\+Logic}!next@{next}}
+\index{next@{next}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{next}{next}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Block} Game\+Logic\+::next\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_game_logic_a42f7be1948bf9cf0a8ff05d7544f62bc}{}\label{class_game_logic_a42f7be1948bf9cf0a8ff05d7544f62bc}
+
+
+Game\+Logic.\+h 파일의 42 번째 라인에서 정의되었습니다.
+
+\index{Game\+Logic@{Game\+Logic}!score@{score}}
+\index{score@{score}!Game\+Logic@{Game\+Logic}}
+\subsubsection[{\texorpdfstring{score}{score}}]{\setlength{\rightskip}{0pt plus 5cm}int Game\+Logic\+::score}\hypertarget{class_game_logic_a64ebe1cc14b91b935608ae4455fe3745}{}\label{class_game_logic_a64ebe1cc14b91b935608ae4455fe3745}
+
+
+Game\+Logic.\+h 파일의 17 번째 라인에서 정의되었습니다.
+
+
+
+이 클래스에 대한 문서화 페이지는 다음의 파일들로부터 생성되었습니다.\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_game_logic_8h}{Game\+Logic.\+h}\item 
+\hyperlink{_game_logic_8cpp}{Game\+Logic.\+cpp}\end{DoxyCompactItemize}

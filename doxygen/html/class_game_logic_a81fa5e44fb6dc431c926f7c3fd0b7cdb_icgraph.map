@@ -1,0 +1,10 @@
+<map id="GameLogic::refreshNextBlock" name="GameLogic::refreshNextBlock">
+<area shape="rect" id="node2" href="$class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b" title="GameLogic::nextTurn" alt="" coords="639,31,785,57"/>
+<area shape="rect" id="node7" href="$class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef" title="GameLogic::refresh" alt="" coords="251,56,387,83"/>
+<area shape="rect" id="node3" href="$class_game_logic.html#a36b04a5ca335351249db8cc77019c216" title="GameLogic::moveDown" alt="" coords="833,31,996,57"/>
+<area shape="rect" id="node6" href="$class_game_logic.html#a90faee03fd4311eab796ae7dc582078d" title="GameLogic::drop" alt="" coords="854,81,975,108"/>
+<area shape="rect" id="node4" href="$class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="1044,81,1167,108"/>
+<area shape="rect" id="node5" href="$_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="1215,81,1265,108"/>
+<area shape="rect" id="node8" href="$class_game_logic.html#af6ba400e79f01e5c59f48f55273894e6" title="GameLogic::gameOver" alt="" coords="435,31,591,57"/>
+<area shape="rect" id="node9" href="$class_game_logic.html#afabf48aab0520a7ecd576bfc178d4767" title="GameLogic::check" alt="" coords="447,81,578,108"/>
+</map>

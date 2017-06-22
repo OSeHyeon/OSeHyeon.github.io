@@ -1,0 +1,6 @@
+<map id="GameLogic::refreshNextBlock" name="GameLogic::refreshNextBlock">
+<area shape="rect" id="node2" href="$myio_8cpp.html#afce36429cc875312f4476969820ebb51" title="printColorString" alt="" coords="389,20,501,47"/>
+<area shape="rect" id="node4" href="$class_block.html#a5ea55096829ff27961b989409283cd86" title="Block::clear" alt="" coords="251,20,341,47"/>
+<area shape="rect" id="node5" href="$class_block.html#a6735096bf1a9678a688b98782bd1b226" title="Block::print" alt="" coords="252,71,340,97"/>
+<area shape="rect" id="node3" href="$myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d" title="gotoxy" alt="" coords="549,20,611,47"/>
+</map>

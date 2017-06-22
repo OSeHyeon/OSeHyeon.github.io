@@ -1,0 +1,10 @@
+<map id="GameLogic::transforse" name="GameLogic::transforse">
+<area shape="rect" id="node2" href="$class_block.html#a9cc446ec51a125982c41e67af63059b0" title="Block::transpose" alt="" coords="228,5,348,32"/>
+<area shape="rect" id="node4" href="$class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa" title="GameLogic::isCollision" alt="" coords="210,56,366,83"/>
+<area shape="rect" id="node5" href="$class_block.html#a18bfe78145650d1b13267000feea278b" title="Block::reversTranspose" alt="" coords="208,107,368,133"/>
+<area shape="rect" id="node6" href="$class_block.html#a5ea55096829ff27961b989409283cd86" title="Block::clear" alt="" coords="243,157,333,184"/>
+<area shape="rect" id="node9" href="$class_block.html#a6735096bf1a9678a688b98782bd1b226" title="Block::print" alt="" coords="244,208,332,235"/>
+<area shape="rect" id="node3" href="$class_block.html#a4ce6f20dfa2c216f77cbc1a7f2a6f3a2" title="Block::checkBound" alt="" coords="416,95,551,121"/>
+<area shape="rect" id="node7" href="$myio_8cpp.html#afce36429cc875312f4476969820ebb51" title="printColorString" alt="" coords="427,171,539,197"/>
+<area shape="rect" id="node8" href="$myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d" title="gotoxy" alt="" coords="599,171,660,197"/>
+</map>

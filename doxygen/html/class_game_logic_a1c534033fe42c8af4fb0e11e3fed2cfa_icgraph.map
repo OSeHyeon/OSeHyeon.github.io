@@ -1,0 +1,10 @@
+<map id="GameLogic::isCollision" name="GameLogic::isCollision">
+<area shape="rect" id="node2" href="$class_game_logic.html#a36b04a5ca335351249db8cc77019c216" title="GameLogic::moveDown" alt="" coords="416,81,579,108"/>
+<area shape="rect" id="node5" href="$class_game_logic.html#a0e6c1ee03971cf619212f8bb4d5fbc83" title="GameLogic::moveLeft" alt="" coords="422,5,573,32"/>
+<area shape="rect" id="node6" href="$class_game_logic.html#a6213333800f3aa800ea448ad3ee3ea7c" title="GameLogic::moveRight" alt="" coords="209,183,368,209"/>
+<area shape="rect" id="node7" href="$class_game_logic.html#abd2dece64def6dc89e0b116fdca83483" title="GameLogic::transforse" alt="" coords="211,233,366,260"/>
+<area shape="rect" id="node8" href="$class_game_logic.html#a90faee03fd4311eab796ae7dc582078d" title="GameLogic::drop" alt="" coords="437,132,558,159"/>
+<area shape="rect" id="node9" href="$class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b" title="GameLogic::nextTurn" alt="" coords="215,81,362,108"/>
+<area shape="rect" id="node3" href="$class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="627,132,749,159"/>
+<area shape="rect" id="node4" href="$_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="797,132,848,159"/>
+</map>

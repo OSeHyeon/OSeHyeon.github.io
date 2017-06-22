@@ -1,0 +1,32 @@
+<map id="GameLogic::start" name="GameLogic::start">
+<area shape="rect" id="node2" href="$class_game_logic.html#a5cc64703af4a64975fe24aa5c1d3c711" title="level system " alt="" coords="797,93,949,120"/>
+<area shape="rect" id="node4" href="$myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d" title="gotoxy" alt="" coords="1617,321,1679,348"/>
+<area shape="rect" id="node6" href="$class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef" title="GameLogic::refresh" alt="" coords="805,347,941,373"/>
+<area shape="rect" id="node11" href="$class_game_logic.html#ad0f9f0e6c978a3b3fa1ff7a2a3d92563" title="GameLogic::printBlock" alt="" coords="180,195,335,221"/>
+<area shape="rect" id="node15" href="$class_game_logic.html#a36b04a5ca335351249db8cc77019c216" title="GameLogic::moveDown" alt="" coords="176,347,339,373"/>
+<area shape="rect" id="node23" href="$class_game_logic.html#abd2dece64def6dc89e0b116fdca83483" title="GameLogic::transforse" alt="" coords="387,752,541,779"/>
+<area shape="rect" id="node27" href="$class_game_logic.html#a6213333800f3aa800ea448ad3ee3ea7c" title="GameLogic::moveRight" alt="" coords="178,575,337,601"/>
+<area shape="rect" id="node30" href="$class_game_logic.html#a0e6c1ee03971cf619212f8bb4d5fbc83" title="GameLogic::moveLeft" alt="" coords="182,625,333,652"/>
+<area shape="rect" id="node31" href="$class_game_logic.html#a90faee03fd4311eab796ae7dc582078d" title="GameLogic::drop" alt="" coords="197,397,318,424"/>
+<area shape="rect" id="node3" href="$myio_8cpp.html#afce36429cc875312f4476969820ebb51" title="printColorString" alt="" coords="1457,321,1569,348"/>
+<area shape="rect" id="node5" href="$class_game_logic.html#abf26417f7a1fff03e6639b8bd69490f0" title="GameLogic::gameClear" alt="" coords="1017,43,1175,69"/>
+<area shape="rect" id="node7" href="$class_game_logic.html#a81fa5e44fb6dc431c926f7c3fd0b7cdb" title="GameLogic::refreshNextBlock" alt="" coords="997,448,1195,475"/>
+<area shape="rect" id="node10" href="$class_game_logic.html#a3f19ca1ad6a1c829afe571f7ac25d3c5" title="GameLogic::refreshPoint" alt="" coords="1243,296,1409,323"/>
+<area shape="rect" id="node8" href="$class_block.html#a5ea55096829ff27961b989409283cd86" title="Block::clear" alt="" coords="1281,499,1371,525"/>
+<area shape="rect" id="node9" href="$class_block.html#a6735096bf1a9678a688b98782bd1b226" title="Block::print" alt="" coords="1282,549,1370,576"/>
+<area shape="rect" id="node12" href="$class_block.html#a24e9792df444cc3cd9cd9c28a62f5abd" title="Block::refresh" alt="" coords="618,195,721,221"/>
+<area shape="rect" id="node13" href="$class_block.html#ab2f8596ed64d7d4fc1ce6cbd739173de" title="Block::clear" alt="" coords="1281,144,1371,171"/>
+<area shape="rect" id="node14" href="$class_block.html#a7ea913786e48c140a2a35ff03c35746c" title="Block::print" alt="" coords="1052,195,1140,221"/>
+<area shape="rect" id="node16" href="$class_block.html#a947d677f5229eabb9ceb291e3552773d" title="Block::moveDown" alt="" coords="399,397,529,424"/>
+<area shape="rect" id="node17" href="$class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa" title="GameLogic::isCollision" alt="" coords="591,499,747,525"/>
+<area shape="rect" id="node18" href="$class_block.html#a8bf4fce7b2b837fd49726b6a7f17f4b0" title="Block::moveUp" alt="" coords="408,448,520,475"/>
+<area shape="rect" id="node19" href="$class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b" title="GameLogic::nextTurn" alt="" coords="391,296,537,323"/>
+<area shape="rect" id="node20" href="$class_game_logic.html#afabf48aab0520a7ecd576bfc178d4767" title="GameLogic::check" alt="" coords="604,245,735,272"/>
+<area shape="rect" id="node22" href="$class_game_logic.html#af6ba400e79f01e5c59f48f55273894e6" title="GameLogic::gameOver" alt="" coords="591,347,747,373"/>
+<area shape="rect" id="node21" href="$class_game_logic.html#aa94e4cc11eb878caf3b4889e267fd7d7" title="GameLogic::clearLine" alt="" coords="799,296,947,323"/>
+<area shape="rect" id="node24" href="$class_block.html#a9cc446ec51a125982c41e67af63059b0" title="Block::transpose" alt="" coords="609,727,729,753"/>
+<area shape="rect" id="node26" href="$class_block.html#a18bfe78145650d1b13267000feea278b" title="Block::reversTranspose" alt="" coords="589,777,749,804"/>
+<area shape="rect" id="node25" href="$class_block.html#a4ce6f20dfa2c216f77cbc1a7f2a6f3a2" title="Block::checkBound" alt="" coords="806,752,941,779"/>
+<area shape="rect" id="node28" href="$class_block.html#a13d1f87524fed8d686a4d478e41d5096" title="Block::moveRight" alt="" coords="401,600,527,627"/>
+<area shape="rect" id="node29" href="$class_block.html#af304df3662f2c6feec7cfc232246ef29" title="Block::moveLeft" alt="" coords="405,651,523,677"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="GameLogic" name="GameLogic">
+<area shape="rect" id="node2" href="$class_block.html" title="{Block\n|+ left\l+ right\l+ bottom\l+ color\l+ BLOCK\l+ CLEAR\l&#45; stat\l&#45; LEFT\l&#45; RIGHT\l&#45; TOP\l&#45; BOTTOM\l|+ moveUp()\l+ moveDown()\l+ moveLeft()\l+ moveRight()\l+ transpose()\l+ reversTranspose()\l+ print()\l+ clear()\l+ refresh()\l+ print()\l+ clear()\l+ Block()\l+ Block()\l+ ~Block()\l&#45; init()\l&#45; checkBound()\l}" alt="" coords="5,219,144,663"/>
+<area shape="rect" id="node3" href="$struct_point.html" title="{Point\n|+ x\l+ y\l|}" alt="" coords="49,5,101,97"/>
+</map>

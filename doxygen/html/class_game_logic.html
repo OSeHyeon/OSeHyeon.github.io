@@ -1,0 +1,1423 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>TermProjectTetris: GameLogic 클래스 참조</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TermProjectTetris
+   &#160;<span id="projectnumber">0.0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 다음에 의해 생성됨 :  Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'검색');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>메인&#160;페이지</span></a></li>
+      <li><a href="pages.html"><span>관련된&#160;페이지</span></a></li>
+      <li class="current"><a href="annotated.html"><span>클래스</span></a></li>
+      <li><a href="files.html"><span>파일들</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="검색" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>클래스&#160;목록</span></a></li>
+      <li><a href="classes.html"><span>클래스&#160;색인</span></a></li>
+      <li><a href="functions.html"><span>클래스&#160;멤버</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_game_logic.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 멤버 함수</a> &#124;
+<a href="#pub-attribs">Public 속성</a> &#124;
+<a href="#pri-methods">Private 멤버 함수</a> &#124;
+<a href="#pri-attribs">Private 속성</a> &#124;
+<a href="class_game_logic-members.html">모든 멤버 목록</a>  </div>
+  <div class="headertitle">
+<div class="title">GameLogic 클래스 참조</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_game_logic_8h_source.html">GameLogic.h</a>&gt;</code></p>
+<div class="dynheader">
+GameLogic에 대한 협력 다이어그램:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic__coll__graph.png" border="0" usemap="#_game_logic_coll__map" alt="Collaboration graph"/></div>
+<map name="_game_logic_coll__map" id="_game_logic_coll__map">
+<area shape="rect" id="node2" href="class_block.html" title="{Block\n|+ left\l+ right\l+ bottom\l+ color\l+ BLOCK\l+ CLEAR\l&#45; stat\l&#45; LEFT\l&#45; RIGHT\l&#45; TOP\l&#45; BOTTOM\l|+ moveUp()\l+ moveDown()\l+ moveLeft()\l+ moveRight()\l+ transpose()\l+ reversTranspose()\l+ print()\l+ clear()\l+ refresh()\l+ print()\l+ clear()\l+ Block()\l+ Block()\l+ ~Block()\l&#45; init()\l&#45; checkBound()\l}" alt="" coords="5,219,144,663"/>
+<area shape="rect" id="node3" href="struct_point.html" title="{Point\n|+ x\l+ y\l|}" alt="" coords="49,5,101,97"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 멤버 함수</h2></td></tr>
+<tr class="memitem:aeb7d3db8014da87a18ac744d9f77131d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d">start</a> ()</td></tr>
+<tr class="separator:aeb7d3db8014da87a18ac744d9f77131d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e6c1ee03971cf619212f8bb4d5fbc83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#a0e6c1ee03971cf619212f8bb4d5fbc83">moveLeft</a> ()</td></tr>
+<tr class="separator:a0e6c1ee03971cf619212f8bb4d5fbc83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6213333800f3aa800ea448ad3ee3ea7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#a6213333800f3aa800ea448ad3ee3ea7c">moveRight</a> ()</td></tr>
+<tr class="separator:a6213333800f3aa800ea448ad3ee3ea7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36b04a5ca335351249db8cc77019c216"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#a36b04a5ca335351249db8cc77019c216">moveDown</a> ()</td></tr>
+<tr class="separator:a36b04a5ca335351249db8cc77019c216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd2dece64def6dc89e0b116fdca83483"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#abd2dece64def6dc89e0b116fdca83483">transforse</a> ()</td></tr>
+<tr class="separator:abd2dece64def6dc89e0b116fdca83483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90faee03fd4311eab796ae7dc582078d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#a90faee03fd4311eab796ae7dc582078d">drop</a> ()</td></tr>
+<tr class="separator:a90faee03fd4311eab796ae7dc582078d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0f9f0e6c978a3b3fa1ff7a2a3d92563"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#ad0f9f0e6c978a3b3fa1ff7a2a3d92563">printBlock</a> ()</td></tr>
+<tr class="separator:ad0f9f0e6c978a3b3fa1ff7a2a3d92563"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a996cd781691c36922e7ce792fcb21640"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#a996cd781691c36922e7ce792fcb21640">GameLogic</a> ()</td></tr>
+<tr class="separator:a996cd781691c36922e7ce792fcb21640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63a7acf778535b5f74d469de2cd39b16"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#a63a7acf778535b5f74d469de2cd39b16">~GameLogic</a> ()</td></tr>
+<tr class="separator:a63a7acf778535b5f74d469de2cd39b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 속성</h2></td></tr>
+<tr class="memitem:a64ebe1cc14b91b935608ae4455fe3745"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#a64ebe1cc14b91b935608ae4455fe3745">score</a></td></tr>
+<tr class="separator:a64ebe1cc14b91b935608ae4455fe3745"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a95fb9e16b411f1149dcdb463cdc3a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#a6a95fb9e16b411f1149dcdb463cdc3a5">isRun</a></td></tr>
+<tr class="separator:a6a95fb9e16b411f1149dcdb463cdc3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9459c489b9c7bba90895756f373afc6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#ab9459c489b9c7bba90895756f373afc6">interval</a></td></tr>
+<tr class="separator:ab9459c489b9c7bba90895756f373afc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab630a474170a2878d0c5ba8556e3fb39"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#ab630a474170a2878d0c5ba8556e3fb39">clearLines</a></td></tr>
+<tr class="separator:ab630a474170a2878d0c5ba8556e3fb39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71071a20595279a580d18dfa60ed4a1c"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a> [<a class="el" href="_game_logic_8h.html#af728b7647e0b8c49832983a31f9a2e9b">HEIGHT</a>]</td></tr>
+<tr class="separator:a71071a20595279a580d18dfa60ed4a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private 멤버 함수</h2></td></tr>
+<tr class="memitem:aa94e4cc11eb878caf3b4889e267fd7d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#aa94e4cc11eb878caf3b4889e267fd7d7">clearLine</a> (int line)</td></tr>
+<tr class="separator:aa94e4cc11eb878caf3b4889e267fd7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afabf48aab0520a7ecd576bfc178d4767"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#afabf48aab0520a7ecd576bfc178d4767">check</a> (<a class="el" href="class_block.html">Block</a> <a class="el" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>)</td></tr>
+<tr class="separator:afabf48aab0520a7ecd576bfc178d4767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c534033fe42c8af4fb0e11e3fed2cfa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa">isCollision</a> ()</td></tr>
+<tr class="separator:a1c534033fe42c8af4fb0e11e3fed2cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff831622dc54c1737e76b00d0d44ccef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef">refresh</a> ()</td></tr>
+<tr class="separator:aff831622dc54c1737e76b00d0d44ccef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81fa5e44fb6dc431c926f7c3fd0b7cdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#a81fa5e44fb6dc431c926f7c3fd0b7cdb">refreshNextBlock</a> ()</td></tr>
+<tr class="separator:a81fa5e44fb6dc431c926f7c3fd0b7cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f19ca1ad6a1c829afe571f7ac25d3c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#a3f19ca1ad6a1c829afe571f7ac25d3c5">refreshPoint</a> ()</td></tr>
+<tr class="separator:a3f19ca1ad6a1c829afe571f7ac25d3c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6ba400e79f01e5c59f48f55273894e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#af6ba400e79f01e5c59f48f55273894e6">gameOver</a> ()</td></tr>
+<tr class="separator:af6ba400e79f01e5c59f48f55273894e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf26417f7a1fff03e6639b8bd69490f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#abf26417f7a1fff03e6639b8bd69490f0">gameClear</a> ()</td></tr>
+<tr class="separator:abf26417f7a1fff03e6639b8bd69490f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70b7fcd97d321dfb9d2130f864ddac3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b">nextTurn</a> ()</td></tr>
+<tr class="separator:a70b7fcd97d321dfb9d2130f864ddac3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cc64703af4a64975fe24aa5c1d3c711"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#a5cc64703af4a64975fe24aa5c1d3c711">nextLevel</a> ()</td></tr>
+<tr class="memdesc:a5cc64703af4a64975fe24aa5c1d3c711"><td class="mdescLeft">&#160;</td><td class="mdescRight">level system  <a href="#a5cc64703af4a64975fe24aa5c1d3c711">더 자세히 ...</a><br /></td></tr>
+<tr class="separator:a5cc64703af4a64975fe24aa5c1d3c711"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private 속성</h2></td></tr>
+<tr class="memitem:a499d9b05317bb6a77bf3521f42a6638a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_block.html">Block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a></td></tr>
+<tr class="separator:a499d9b05317bb6a77bf3521f42a6638a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42f7be1948bf9cf0a8ff05d7544f62bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_block.html">Block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#a42f7be1948bf9cf0a8ff05d7544f62bc">next</a></td></tr>
+<tr class="separator:a42f7be1948bf9cf0a8ff05d7544f62bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae09fc4252ad9db62b810117567783880"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#ae09fc4252ad9db62b810117567783880">isNotGameOver</a></td></tr>
+<tr class="separator:ae09fc4252ad9db62b810117567783880"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca26b3a67b4bb5d5d477f9873826aae8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_logic.html#aca26b3a67b4bb5d5d477f9873826aae8">level</a></td></tr>
+<tr class="separator:aca26b3a67b4bb5d5d477f9873826aae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">상세한 설명</h2>
+<div class="textblock">
+<p><a class="el" href="_game_logic_8h_source.html">GameLogic.h</a> 파일의 <a class="el" href="_game_logic_8h_source.html#l00015">15</a> 번째 라인에서 정의되었습니다.</p>
+</div><h2 class="groupheader">생성자 &amp; 소멸자 문서화</h2>
+<a class="anchor" id="a996cd781691c36922e7ce792fcb21640"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameLogic::GameLogic </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00019">19</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                     {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="_game_logic_8h.html#af728b7647e0b8c49832983a31f9a2e9b">HEIGHT</a> + 1; i++) {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[i] = <span class="keyword">new</span> <span class="keywordtype">char</span>[<a class="code" href="_game_logic_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">WIDTH</a>];</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; <a class="code" href="_game_logic_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">WIDTH</a>; j++) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[i][j] = 0;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; <a class="code" href="_game_logic_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">WIDTH</a>; j++) {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[<a class="code" href="_game_logic_8h.html#af728b7647e0b8c49832983a31f9a2e9b">HEIGHT</a>][j] = 1;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="class_game_logic.html#a6a95fb9e16b411f1149dcdb463cdc3a5">isRun</a> = <span class="keyword">true</span>;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a>.<a class="code" href="struct_point.html#a8c779e11e694b20e0946105a9f5de842">x</a> = 6;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a>.<a class="code" href="struct_point.html#a2e1b5fb2b2a83571f5c0bc0f66a73cf7">y</a> = 2;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div><div class="ttc" id="class_game_logic_html_a6a95fb9e16b411f1149dcdb463cdc3a5"><div class="ttname"><a href="class_game_logic.html#a6a95fb9e16b411f1149dcdb463cdc3a5">GameLogic::isRun</a></div><div class="ttdeci">bool isRun</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00018">GameLogic.h:18</a></div></div>
+<div class="ttc" id="_game_logic_8h_html_a9649ab8139c4c2ea5c93625b30d92a05"><div class="ttname"><a href="_game_logic_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">WIDTH</a></div><div class="ttdeci">static const int WIDTH</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00012">GameLogic.h:12</a></div></div>
+<div class="ttc" id="class_game_logic_html_a71071a20595279a580d18dfa60ed4a1c"><div class="ttname"><a href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">GameLogic::board</a></div><div class="ttdeci">char * board[HEIGHT]</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00022">GameLogic.h:22</a></div></div>
+<div class="ttc" id="class_block_html_ad456f4794a480711f7057e1f270d93c2"><div class="ttname"><a href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a></div><div class="ttdeci">static Point zero</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00024">Block.h:24</a></div></div>
+<div class="ttc" id="struct_point_html_a2e1b5fb2b2a83571f5c0bc0f66a73cf7"><div class="ttname"><a href="struct_point.html#a2e1b5fb2b2a83571f5c0bc0f66a73cf7">Point::y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00011">Block.h:11</a></div></div>
+<div class="ttc" id="_game_logic_8h_html_af728b7647e0b8c49832983a31f9a2e9b"><div class="ttname"><a href="_game_logic_8h.html#af728b7647e0b8c49832983a31f9a2e9b">HEIGHT</a></div><div class="ttdeci">static const int HEIGHT</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00013">GameLogic.h:13</a></div></div>
+<div class="ttc" id="struct_point_html_a8c779e11e694b20e0946105a9f5de842"><div class="ttname"><a href="struct_point.html#a8c779e11e694b20e0946105a9f5de842">Point::x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00011">Block.h:11</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a63a7acf778535b5f74d469de2cd39b16"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameLogic::~GameLogic </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">할일:</a></b></dt><dd>Auto-generated destructor stub</dd></dl>
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00035">35</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                      {</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="_game_logic_8h.html#af728b7647e0b8c49832983a31f9a2e9b">HEIGHT</a> + 1; i++) {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">delete</span> <a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[i];</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div><div class="ttc" id="class_game_logic_html_a71071a20595279a580d18dfa60ed4a1c"><div class="ttname"><a href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">GameLogic::board</a></div><div class="ttdeci">char * board[HEIGHT]</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00022">GameLogic.h:22</a></div></div>
+<div class="ttc" id="_game_logic_8h_html_af728b7647e0b8c49832983a31f9a2e9b"><div class="ttname"><a href="_game_logic_8h.html#af728b7647e0b8c49832983a31f9a2e9b">HEIGHT</a></div><div class="ttdeci">static const int HEIGHT</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00013">GameLogic.h:13</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">멤버 함수 문서화</h2>
+<a class="anchor" id="afabf48aab0520a7ecd576bfc178d4767"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameLogic::check </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_block.html">Block</a>&#160;</td>
+          <td class="paramname"><em>block</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>score system</p>
+<p>level up if clearline counts over 20</p>
+<p>score takes differnce with lineCount make combo system</p>
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00225">225</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                                 {</div><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;</div><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="keywordtype">bool</span> needClear = <span class="keyword">false</span>;</div><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <span class="keywordtype">bool</span> removeable;</div><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordtype">int</span> lineCount = 0;</div><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordtype">int</span> y = block.<a class="code" href="class_block.html#aeb5dd312b719966752ba4b38720a4535">current</a>.<a class="code" href="struct_point.html#a2e1b5fb2b2a83571f5c0bc0f66a73cf7">y</a> + block.<a class="code" href="class_block.html#a8d97d8b0b6a09592ac007c13c3fa3867">bottom</a>;</div><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 4; i++) {</div><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        removeable = <span class="keyword">true</span>;</div><div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> x = 0; x &lt; <a class="code" href="_game_logic_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">WIDTH</a>; x++) {</div><div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;            <span class="keywordflow">if</span> (!<a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[y][x]) {</div><div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                removeable = <span class="keyword">false</span>;</div><div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                <span class="keywordflow">break</span>;</div><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            }</div><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        }</div><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        <span class="keywordflow">if</span> (removeable) {</div><div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            <a class="code" href="class_game_logic.html#aa94e4cc11eb878caf3b4889e267fd7d7">clearLine</a>(y);</div><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            needClear = <span class="keyword">true</span>;</div><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            lineCount++;</div><div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            y--;</div><div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        }</div><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    }</div><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <span class="keywordflow">switch</span> (lineCount) {</div><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <span class="keywordflow">case</span> 1:</div><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        <a class="code" href="class_game_logic.html#a64ebe1cc14b91b935608ae4455fe3745">score</a> += 100;</div><div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="keywordflow">break</span>;</div><div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="keywordflow">case</span> 2:</div><div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <a class="code" href="class_game_logic.html#a64ebe1cc14b91b935608ae4455fe3745">score</a> += 300;</div><div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        <span class="keywordflow">break</span>;</div><div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <span class="keywordflow">case</span> 3:</div><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        <a class="code" href="class_game_logic.html#a64ebe1cc14b91b935608ae4455fe3745">score</a> += 500;</div><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <span class="keywordflow">break</span>;</div><div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <span class="keywordflow">case</span> 4:</div><div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <a class="code" href="class_game_logic.html#a64ebe1cc14b91b935608ae4455fe3745">score</a> += 800;</div><div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="keywordflow">break</span>;</div><div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="keywordflow">default</span>:</div><div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        <span class="keywordflow">break</span>;</div><div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    }</div><div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    <a class="code" href="class_game_logic.html#ab630a474170a2878d0c5ba8556e3fb39">clearLines</a> += lineCount;</div><div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="keywordtype">char</span> l[4];</div><div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    sprintf(l, <span class="stringliteral">&quot;%d&quot;</span>, <a class="code" href="class_game_logic.html#ab630a474170a2878d0c5ba8556e3fb39">clearLines</a>);</div><div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    <a class="code" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a>(40, 15, 0, l);</div><div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="class_game_logic.html#ab630a474170a2878d0c5ba8556e3fb39">clearLines</a> &gt;= 20) {</div><div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <a class="code" href="class_game_logic.html#a5cc64703af4a64975fe24aa5c1d3c711">nextLevel</a>();</div><div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;</div><div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    }</div><div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <span class="keywordflow">if</span> (needClear)</div><div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        <a class="code" href="class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef">refresh</a>();</div><div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;</div><div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;}</div><div class="ttc" id="class_game_logic_html_a64ebe1cc14b91b935608ae4455fe3745"><div class="ttname"><a href="class_game_logic.html#a64ebe1cc14b91b935608ae4455fe3745">GameLogic::score</a></div><div class="ttdeci">int score</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00017">GameLogic.h:17</a></div></div>
+<div class="ttc" id="_game_logic_8h_html_a9649ab8139c4c2ea5c93625b30d92a05"><div class="ttname"><a href="_game_logic_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">WIDTH</a></div><div class="ttdeci">static const int WIDTH</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00012">GameLogic.h:12</a></div></div>
+<div class="ttc" id="class_block_html_aeb5dd312b719966752ba4b38720a4535"><div class="ttname"><a href="class_block.html#aeb5dd312b719966752ba4b38720a4535">Block::current</a></div><div class="ttdeci">Point current</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00025">Block.h:25</a></div></div>
+<div class="ttc" id="class_game_logic_html_ab630a474170a2878d0c5ba8556e3fb39"><div class="ttname"><a href="class_game_logic.html#ab630a474170a2878d0c5ba8556e3fb39">GameLogic::clearLines</a></div><div class="ttdeci">int clearLines</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00020">GameLogic.h:20</a></div></div>
+<div class="ttc" id="class_game_logic_html_a71071a20595279a580d18dfa60ed4a1c"><div class="ttname"><a href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">GameLogic::board</a></div><div class="ttdeci">char * board[HEIGHT]</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00022">GameLogic.h:22</a></div></div>
+<div class="ttc" id="class_game_logic_html_aa94e4cc11eb878caf3b4889e267fd7d7"><div class="ttname"><a href="class_game_logic.html#aa94e4cc11eb878caf3b4889e267fd7d7">GameLogic::clearLine</a></div><div class="ttdeci">void clearLine(int line)</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00174">GameLogic.cpp:174</a></div></div>
+<div class="ttc" id="class_game_logic_html_aff831622dc54c1737e76b00d0d44ccef"><div class="ttname"><a href="class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef">GameLogic::refresh</a></div><div class="ttdeci">void refresh()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00284">GameLogic.cpp:284</a></div></div>
+<div class="ttc" id="struct_point_html_a2e1b5fb2b2a83571f5c0bc0f66a73cf7"><div class="ttname"><a href="struct_point.html#a2e1b5fb2b2a83571f5c0bc0f66a73cf7">Point::y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00011">Block.h:11</a></div></div>
+<div class="ttc" id="class_game_logic_html_a5cc64703af4a64975fe24aa5c1d3c711"><div class="ttname"><a href="class_game_logic.html#a5cc64703af4a64975fe24aa5c1d3c711">GameLogic::nextLevel</a></div><div class="ttdeci">void nextLevel()</div><div class="ttdoc">level system </div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00331">GameLogic.cpp:331</a></div></div>
+<div class="ttc" id="myio_8cpp_html_afce36429cc875312f4476969820ebb51"><div class="ttname"><a href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a></div><div class="ttdeci">void printColorString(int x, int y, int color, char *str)</div><div class="ttdef"><b>Definition:</b> <a href="myio_8cpp_source.html#l00011">myio.cpp:11</a></div></div>
+<div class="ttc" id="class_block_html_a8d97d8b0b6a09592ac007c13c3fa3867"><div class="ttname"><a href="class_block.html#a8d97d8b0b6a09592ac007c13c3fa3867">Block::bottom</a></div><div class="ttdeci">int bottom</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00028">Block.h:28</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_afabf48aab0520a7ecd576bfc178d4767_cgraph.png" border="0" usemap="#class_game_logic_afabf48aab0520a7ecd576bfc178d4767_cgraph" alt=""/></div>
+<map name="class_game_logic_afabf48aab0520a7ecd576bfc178d4767_cgraph" id="class_game_logic_afabf48aab0520a7ecd576bfc178d4767_cgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#aa94e4cc11eb878caf3b4889e267fd7d7" title="GameLogic::clearLine" alt="" coords="186,5,334,32"/>
+<area shape="rect" id="node3" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51" title="printColorString" alt="" coords="844,259,956,285"/>
+<area shape="rect" id="node5" href="class_game_logic.html#a5cc64703af4a64975fe24aa5c1d3c711" title="level system " alt="" coords="184,107,336,133"/>
+<area shape="rect" id="node7" href="class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef" title="GameLogic::refresh" alt="" coords="192,284,328,311"/>
+<area shape="rect" id="node4" href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d" title="gotoxy" alt="" coords="1004,348,1065,375"/>
+<area shape="rect" id="node6" href="class_game_logic.html#abf26417f7a1fff03e6639b8bd69490f0" title="GameLogic::gameClear" alt="" coords="403,157,562,184"/>
+<area shape="rect" id="node8" href="class_game_logic.html#a81fa5e44fb6dc431c926f7c3fd0b7cdb" title="GameLogic::refreshNextBlock" alt="" coords="384,284,581,311"/>
+<area shape="rect" id="node11" href="class_game_logic.html#a3f19ca1ad6a1c829afe571f7ac25d3c5" title="GameLogic::refreshPoint" alt="" coords="629,385,796,412"/>
+<area shape="rect" id="node9" href="class_block.html#a5ea55096829ff27961b989409283cd86" title="Block::clear" alt="" coords="667,284,758,311"/>
+<area shape="rect" id="node10" href="class_block.html#a6735096bf1a9678a688b98782bd1b226" title="Block::print" alt="" coords="669,335,757,361"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_afabf48aab0520a7ecd576bfc178d4767_icgraph.png" border="0" usemap="#class_game_logic_afabf48aab0520a7ecd576bfc178d4767_icgraph" alt=""/></div>
+<map name="class_game_logic_afabf48aab0520a7ecd576bfc178d4767_icgraph" id="class_game_logic_afabf48aab0520a7ecd576bfc178d4767_icgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b" title="GameLogic::nextTurn" alt="" coords="184,31,331,57"/>
+<area shape="rect" id="node3" href="class_game_logic.html#a36b04a5ca335351249db8cc77019c216" title="GameLogic::moveDown" alt="" coords="379,5,541,32"/>
+<area shape="rect" id="node6" href="class_game_logic.html#a90faee03fd4311eab796ae7dc582078d" title="GameLogic::drop" alt="" coords="399,56,521,83"/>
+<area shape="rect" id="node4" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="589,31,712,57"/>
+<area shape="rect" id="node5" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="760,31,811,57"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa94e4cc11eb878caf3b4889e267fd7d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameLogic::clearLine </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>line</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00174">174</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                               {</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordtype">char</span> *line = <a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[l];</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> y = l; y &gt; 0; y--) {</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[y] = <a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[y - 1];</div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    }</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[0] = line;</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> x = 0; x &lt; <a class="code" href="_game_logic_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">WIDTH</a>; x++) {</div><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[0][x] = 0;</div><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    }</div><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;}</div><div class="ttc" id="_game_logic_8h_html_a9649ab8139c4c2ea5c93625b30d92a05"><div class="ttname"><a href="_game_logic_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">WIDTH</a></div><div class="ttdeci">static const int WIDTH</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00012">GameLogic.h:12</a></div></div>
+<div class="ttc" id="class_game_logic_html_a71071a20595279a580d18dfa60ed4a1c"><div class="ttname"><a href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">GameLogic::board</a></div><div class="ttdeci">char * board[HEIGHT]</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00022">GameLogic.h:22</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_aa94e4cc11eb878caf3b4889e267fd7d7_icgraph.png" border="0" usemap="#class_game_logic_aa94e4cc11eb878caf3b4889e267fd7d7_icgraph" alt=""/></div>
+<map name="class_game_logic_aa94e4cc11eb878caf3b4889e267fd7d7_icgraph" id="class_game_logic_aa94e4cc11eb878caf3b4889e267fd7d7_icgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#afabf48aab0520a7ecd576bfc178d4767" title="GameLogic::check" alt="" coords="201,31,332,57"/>
+<area shape="rect" id="node3" href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b" title="GameLogic::nextTurn" alt="" coords="380,31,527,57"/>
+<area shape="rect" id="node4" href="class_game_logic.html#a36b04a5ca335351249db8cc77019c216" title="GameLogic::moveDown" alt="" coords="575,5,737,32"/>
+<area shape="rect" id="node7" href="class_game_logic.html#a90faee03fd4311eab796ae7dc582078d" title="GameLogic::drop" alt="" coords="595,56,717,83"/>
+<area shape="rect" id="node5" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="785,31,908,57"/>
+<area shape="rect" id="node6" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="956,31,1007,57"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a90faee03fd4311eab796ae7dc582078d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameLogic::drop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00147">147</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                     {</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keywordflow">while</span> (!<a class="code" href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa">isCollision</a>())</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#a947d677f5229eabb9ceb291e3552773d">moveDown</a>();</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#a8bf4fce7b2b837fd49726b6a7f17f4b0">moveUp</a>();</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <a class="code" href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b">nextTurn</a>();</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;}</div><div class="ttc" id="class_game_logic_html_a499d9b05317bb6a77bf3521f42a6638a"><div class="ttname"><a href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">GameLogic::block</a></div><div class="ttdeci">Block block</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00041">GameLogic.h:41</a></div></div>
+<div class="ttc" id="class_block_html_a947d677f5229eabb9ceb291e3552773d"><div class="ttname"><a href="class_block.html#a947d677f5229eabb9ceb291e3552773d">Block::moveDown</a></div><div class="ttdeci">void moveDown()</div><div class="ttdef"><b>Definition:</b> <a href="_block_8cpp_source.html#l00162">Block.cpp:162</a></div></div>
+<div class="ttc" id="class_game_logic_html_a70b7fcd97d321dfb9d2130f864ddac3b"><div class="ttname"><a href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b">GameLogic::nextTurn</a></div><div class="ttdeci">void nextTurn()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00201">GameLogic.cpp:201</a></div></div>
+<div class="ttc" id="class_game_logic_html_a1c534033fe42c8af4fb0e11e3fed2cfa"><div class="ttname"><a href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa">GameLogic::isCollision</a></div><div class="ttdeci">bool isCollision()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00157">GameLogic.cpp:157</a></div></div>
+<div class="ttc" id="class_block_html_a8bf4fce7b2b837fd49726b6a7f17f4b0"><div class="ttname"><a href="class_block.html#a8bf4fce7b2b837fd49726b6a7f17f4b0">Block::moveUp</a></div><div class="ttdeci">void moveUp()</div><div class="ttdef"><b>Definition:</b> <a href="_block_8cpp_source.html#l00156">Block.cpp:156</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a90faee03fd4311eab796ae7dc582078d_cgraph.png" border="0" usemap="#class_game_logic_a90faee03fd4311eab796ae7dc582078d_cgraph" alt=""/></div>
+<map name="class_game_logic_a90faee03fd4311eab796ae7dc582078d_cgraph" id="class_game_logic_a90faee03fd4311eab796ae7dc582078d_cgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa" title="GameLogic::isCollision" alt="" coords="369,5,525,32"/>
+<area shape="rect" id="node3" href="class_block.html#a947d677f5229eabb9ceb291e3552773d" title="Block::moveDown" alt="" coords="183,132,313,159"/>
+<area shape="rect" id="node4" href="class_block.html#a8bf4fce7b2b837fd49726b6a7f17f4b0" title="Block::moveUp" alt="" coords="192,183,304,209"/>
+<area shape="rect" id="node5" href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b" title="GameLogic::nextTurn" alt="" coords="175,81,321,108"/>
+<area shape="rect" id="node6" href="class_block.html#a24e9792df444cc3cd9cd9c28a62f5abd" title="Block::refresh" alt="" coords="821,56,923,83"/>
+<area shape="rect" id="node11" href="class_game_logic.html#afabf48aab0520a7ecd576bfc178d4767" title="GameLogic::check" alt="" coords="382,512,513,539"/>
+<area shape="rect" id="node16" href="class_game_logic.html#a81fa5e44fb6dc431c926f7c3fd0b7cdb" title="GameLogic::refreshNextBlock" alt="" coords="773,259,971,285"/>
+<area shape="rect" id="node20" href="class_game_logic.html#af6ba400e79f01e5c59f48f55273894e6" title="GameLogic::gameOver" alt="" coords="369,157,525,184"/>
+<area shape="rect" id="node7" href="class_block.html#ab2f8596ed64d7d4fc1ce6cbd739173de" title="Block::clear" alt="" coords="1019,107,1109,133"/>
+<area shape="rect" id="node10" href="class_block.html#a7ea913786e48c140a2a35ff03c35746c" title="Block::print" alt="" coords="1020,56,1108,83"/>
+<area shape="rect" id="node8" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51" title="printColorString" alt="" coords="1157,309,1269,336"/>
+<area shape="rect" id="node9" href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d" title="gotoxy" alt="" coords="1317,411,1379,437"/>
+<area shape="rect" id="node12" href="class_game_logic.html#aa94e4cc11eb878caf3b4889e267fd7d7" title="GameLogic::clearLine" alt="" coords="575,563,723,589"/>
+<area shape="rect" id="node13" href="class_game_logic.html#a5cc64703af4a64975fe24aa5c1d3c711" title="level system " alt="" coords="573,613,725,640"/>
+<area shape="rect" id="node15" href="class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef" title="GameLogic::refresh" alt="" coords="581,385,717,412"/>
+<area shape="rect" id="node14" href="class_game_logic.html#abf26417f7a1fff03e6639b8bd69490f0" title="GameLogic::gameClear" alt="" coords="793,613,951,640"/>
+<area shape="rect" id="node19" href="class_game_logic.html#a3f19ca1ad6a1c829afe571f7ac25d3c5" title="GameLogic::refreshPoint" alt="" coords="789,360,955,387"/>
+<area shape="rect" id="node17" href="class_block.html#a5ea55096829ff27961b989409283cd86" title="Block::clear" alt="" coords="1019,208,1109,235"/>
+<area shape="rect" id="node18" href="class_block.html#a6735096bf1a9678a688b98782bd1b226" title="Block::print" alt="" coords="1020,259,1108,285"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a90faee03fd4311eab796ae7dc582078d_icgraph.png" border="0" usemap="#class_game_logic_a90faee03fd4311eab796ae7dc582078d_icgraph" alt=""/></div>
+<map name="class_game_logic_a90faee03fd4311eab796ae7dc582078d_icgraph" id="class_game_logic_a90faee03fd4311eab796ae7dc582078d_icgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="175,5,297,32"/>
+<area shape="rect" id="node3" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="345,5,396,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="abf26417f7a1fff03e6639b8bd69490f0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameLogic::gameClear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00198">198</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                          {</div><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;}</div></div><!-- fragment -->
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_abf26417f7a1fff03e6639b8bd69490f0_icgraph.png" border="0" usemap="#class_game_logic_abf26417f7a1fff03e6639b8bd69490f0_icgraph" alt=""/></div>
+<map name="class_game_logic_abf26417f7a1fff03e6639b8bd69490f0_icgraph" id="class_game_logic_abf26417f7a1fff03e6639b8bd69490f0_icgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#a5cc64703af4a64975fe24aa5c1d3c711" title="level system " alt="" coords="212,7,364,34"/>
+<area shape="rect" id="node3" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="996,32,1119,59"/>
+<area shape="rect" id="node5" href="class_game_logic.html#afabf48aab0520a7ecd576bfc178d4767" title="GameLogic::check" alt="" coords="412,32,543,59"/>
+<area shape="rect" id="node4" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="1167,32,1217,59"/>
+<area shape="rect" id="node6" href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b" title="GameLogic::nextTurn" alt="" coords="591,32,737,59"/>
+<area shape="rect" id="node7" href="class_game_logic.html#a36b04a5ca335351249db8cc77019c216" title="GameLogic::moveDown" alt="" coords="785,32,948,59"/>
+<area shape="rect" id="node8" href="class_game_logic.html#a90faee03fd4311eab796ae7dc582078d" title="GameLogic::drop" alt="" coords="806,83,927,110"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af6ba400e79f01e5c59f48f55273894e6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameLogic::gameOver </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00186">186</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                         {</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> x = 0; x &lt; <a class="code" href="_game_logic_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">WIDTH</a>; x++) {</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> y = 0; y &lt; <a class="code" href="_game_logic_8h.html#af728b7647e0b8c49832983a31f9a2e9b">HEIGHT</a>; y++) {</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            <a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[y][x] = 0;</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        }</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <a class="code" href="class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef">refresh</a>();</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    </div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <a class="code" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a>(<a class="code" href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a>.x, <a class="code" href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a>.y + 10, <a class="code" href="myio_8h.html#aba2a7fe77a7501e5844370eec0185207">COLOR_BLACK</a>, <span class="stringliteral">&quot;gameover&quot;</span>);</div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <a class="code" href="class_game_logic.html#ae09fc4252ad9db62b810117567783880">isNotGameOver</a>=<span class="keyword">false</span>;</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;}</div><div class="ttc" id="_game_logic_8h_html_a9649ab8139c4c2ea5c93625b30d92a05"><div class="ttname"><a href="_game_logic_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">WIDTH</a></div><div class="ttdeci">static const int WIDTH</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00012">GameLogic.h:12</a></div></div>
+<div class="ttc" id="class_game_logic_html_a71071a20595279a580d18dfa60ed4a1c"><div class="ttname"><a href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">GameLogic::board</a></div><div class="ttdeci">char * board[HEIGHT]</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00022">GameLogic.h:22</a></div></div>
+<div class="ttc" id="class_game_logic_html_aff831622dc54c1737e76b00d0d44ccef"><div class="ttname"><a href="class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef">GameLogic::refresh</a></div><div class="ttdeci">void refresh()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00284">GameLogic.cpp:284</a></div></div>
+<div class="ttc" id="myio_8h_html_aba2a7fe77a7501e5844370eec0185207"><div class="ttname"><a href="myio_8h.html#aba2a7fe77a7501e5844370eec0185207">COLOR_BLACK</a></div><div class="ttdeci">#define COLOR_BLACK</div><div class="ttdef"><b>Definition:</b> <a href="myio_8h_source.html#l00012">myio.h:12</a></div></div>
+<div class="ttc" id="class_game_logic_html_ae09fc4252ad9db62b810117567783880"><div class="ttname"><a href="class_game_logic.html#ae09fc4252ad9db62b810117567783880">GameLogic::isNotGameOver</a></div><div class="ttdeci">bool isNotGameOver</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00043">GameLogic.h:43</a></div></div>
+<div class="ttc" id="class_block_html_ad456f4794a480711f7057e1f270d93c2"><div class="ttname"><a href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a></div><div class="ttdeci">static Point zero</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00024">Block.h:24</a></div></div>
+<div class="ttc" id="myio_8cpp_html_afce36429cc875312f4476969820ebb51"><div class="ttname"><a href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a></div><div class="ttdeci">void printColorString(int x, int y, int color, char *str)</div><div class="ttdef"><b>Definition:</b> <a href="myio_8cpp_source.html#l00011">myio.cpp:11</a></div></div>
+<div class="ttc" id="_game_logic_8h_html_af728b7647e0b8c49832983a31f9a2e9b"><div class="ttname"><a href="_game_logic_8h.html#af728b7647e0b8c49832983a31f9a2e9b">HEIGHT</a></div><div class="ttdeci">static const int HEIGHT</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00013">GameLogic.h:13</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_af6ba400e79f01e5c59f48f55273894e6_cgraph.png" border="0" usemap="#class_game_logic_af6ba400e79f01e5c59f48f55273894e6_cgraph" alt=""/></div>
+<map name="class_game_logic_af6ba400e79f01e5c59f48f55273894e6_cgraph" id="class_game_logic_af6ba400e79f01e5c59f48f55273894e6_cgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef" title="GameLogic::refresh" alt="" coords="209,86,345,112"/>
+<area shape="rect" id="node4" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51" title="printColorString" alt="" coords="777,86,889,112"/>
+<area shape="rect" id="node3" href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d" title="gotoxy" alt="" coords="937,10,999,36"/>
+<area shape="rect" id="node5" href="class_game_logic.html#a81fa5e44fb6dc431c926f7c3fd0b7cdb" title="GameLogic::refreshNextBlock" alt="" coords="393,86,591,112"/>
+<area shape="rect" id="node8" href="class_game_logic.html#a3f19ca1ad6a1c829afe571f7ac25d3c5" title="GameLogic::refreshPoint" alt="" coords="409,162,575,188"/>
+<area shape="rect" id="node6" href="class_block.html#a5ea55096829ff27961b989409283cd86" title="Block::clear" alt="" coords="639,86,729,112"/>
+<area shape="rect" id="node7" href="class_block.html#a6735096bf1a9678a688b98782bd1b226" title="Block::print" alt="" coords="640,136,728,163"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_af6ba400e79f01e5c59f48f55273894e6_icgraph.png" border="0" usemap="#class_game_logic_af6ba400e79f01e5c59f48f55273894e6_icgraph" alt=""/></div>
+<map name="class_game_logic_af6ba400e79f01e5c59f48f55273894e6_icgraph" id="class_game_logic_af6ba400e79f01e5c59f48f55273894e6_icgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b" title="GameLogic::nextTurn" alt="" coords="209,31,356,57"/>
+<area shape="rect" id="node3" href="class_game_logic.html#a36b04a5ca335351249db8cc77019c216" title="GameLogic::moveDown" alt="" coords="404,5,567,32"/>
+<area shape="rect" id="node6" href="class_game_logic.html#a90faee03fd4311eab796ae7dc582078d" title="GameLogic::drop" alt="" coords="425,56,546,83"/>
+<area shape="rect" id="node4" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="615,31,737,57"/>
+<area shape="rect" id="node5" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="785,31,836,57"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a1c534033fe42c8af4fb0e11e3fed2cfa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameLogic::isCollision </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00157">157</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                            {</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordtype">int</span> x, y;</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 4; i++) {</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        x = <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#aeb5dd312b719966752ba4b38720a4535">current</a>.<a class="code" href="struct_point.html#a8c779e11e694b20e0946105a9f5de842">x</a> + <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#ae1a4e97236e1e5f04d21fc9227b8c3a8">shape</a>[i].<a class="code" href="struct_point.html#a8c779e11e694b20e0946105a9f5de842">x</a>;</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        y = <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#aeb5dd312b719966752ba4b38720a4535">current</a>.<a class="code" href="struct_point.html#a2e1b5fb2b2a83571f5c0bc0f66a73cf7">y</a> + <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#ae1a4e97236e1e5f04d21fc9227b8c3a8">shape</a>[i].<a class="code" href="struct_point.html#a2e1b5fb2b2a83571f5c0bc0f66a73cf7">y</a>;</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="keywordflow">if</span> (x &gt;= <a class="code" href="_game_logic_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">WIDTH</a> || y &gt; <a class="code" href="_game_logic_8h.html#af728b7647e0b8c49832983a31f9a2e9b">HEIGHT</a> || x &lt; 0) {</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        }</div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[y][x]) {</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        }</div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    }</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;}</div><div class="ttc" id="class_game_logic_html_a499d9b05317bb6a77bf3521f42a6638a"><div class="ttname"><a href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">GameLogic::block</a></div><div class="ttdeci">Block block</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00041">GameLogic.h:41</a></div></div>
+<div class="ttc" id="_game_logic_8h_html_a9649ab8139c4c2ea5c93625b30d92a05"><div class="ttname"><a href="_game_logic_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">WIDTH</a></div><div class="ttdeci">static const int WIDTH</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00012">GameLogic.h:12</a></div></div>
+<div class="ttc" id="class_block_html_aeb5dd312b719966752ba4b38720a4535"><div class="ttname"><a href="class_block.html#aeb5dd312b719966752ba4b38720a4535">Block::current</a></div><div class="ttdeci">Point current</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00025">Block.h:25</a></div></div>
+<div class="ttc" id="class_game_logic_html_a71071a20595279a580d18dfa60ed4a1c"><div class="ttname"><a href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">GameLogic::board</a></div><div class="ttdeci">char * board[HEIGHT]</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00022">GameLogic.h:22</a></div></div>
+<div class="ttc" id="struct_point_html_a2e1b5fb2b2a83571f5c0bc0f66a73cf7"><div class="ttname"><a href="struct_point.html#a2e1b5fb2b2a83571f5c0bc0f66a73cf7">Point::y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00011">Block.h:11</a></div></div>
+<div class="ttc" id="class_block_html_ae1a4e97236e1e5f04d21fc9227b8c3a8"><div class="ttname"><a href="class_block.html#ae1a4e97236e1e5f04d21fc9227b8c3a8">Block::shape</a></div><div class="ttdeci">Point shape[4]</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00030">Block.h:30</a></div></div>
+<div class="ttc" id="_game_logic_8h_html_af728b7647e0b8c49832983a31f9a2e9b"><div class="ttname"><a href="_game_logic_8h.html#af728b7647e0b8c49832983a31f9a2e9b">HEIGHT</a></div><div class="ttdeci">static const int HEIGHT</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00013">GameLogic.h:13</a></div></div>
+<div class="ttc" id="struct_point_html_a8c779e11e694b20e0946105a9f5de842"><div class="ttname"><a href="struct_point.html#a8c779e11e694b20e0946105a9f5de842">Point::x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00011">Block.h:11</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a1c534033fe42c8af4fb0e11e3fed2cfa_icgraph.png" border="0" usemap="#class_game_logic_a1c534033fe42c8af4fb0e11e3fed2cfa_icgraph" alt=""/></div>
+<map name="class_game_logic_a1c534033fe42c8af4fb0e11e3fed2cfa_icgraph" id="class_game_logic_a1c534033fe42c8af4fb0e11e3fed2cfa_icgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#a36b04a5ca335351249db8cc77019c216" title="GameLogic::moveDown" alt="" coords="416,81,579,108"/>
+<area shape="rect" id="node5" href="class_game_logic.html#a0e6c1ee03971cf619212f8bb4d5fbc83" title="GameLogic::moveLeft" alt="" coords="422,5,573,32"/>
+<area shape="rect" id="node6" href="class_game_logic.html#a6213333800f3aa800ea448ad3ee3ea7c" title="GameLogic::moveRight" alt="" coords="209,183,368,209"/>
+<area shape="rect" id="node7" href="class_game_logic.html#abd2dece64def6dc89e0b116fdca83483" title="GameLogic::transforse" alt="" coords="211,233,366,260"/>
+<area shape="rect" id="node8" href="class_game_logic.html#a90faee03fd4311eab796ae7dc582078d" title="GameLogic::drop" alt="" coords="437,132,558,159"/>
+<area shape="rect" id="node9" href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b" title="GameLogic::nextTurn" alt="" coords="215,81,362,108"/>
+<area shape="rect" id="node3" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="627,132,749,159"/>
+<area shape="rect" id="node4" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="797,132,848,159"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a36b04a5ca335351249db8cc77019c216"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameLogic::moveDown </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>보드에 저장</p>
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00107">107</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                         {</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#a947d677f5229eabb9ceb291e3552773d">moveDown</a>();</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa">isCollision</a>()) {</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#a8bf4fce7b2b837fd49726b6a7f17f4b0">moveUp</a>();</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 4; i++) {</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[<a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#aeb5dd312b719966752ba4b38720a4535">current</a>.<a class="code" href="struct_point.html#a2e1b5fb2b2a83571f5c0bc0f66a73cf7">y</a> + <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#ae1a4e97236e1e5f04d21fc9227b8c3a8">shape</a>[i].<a class="code" href="struct_point.html#a2e1b5fb2b2a83571f5c0bc0f66a73cf7">y</a>][<a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#aeb5dd312b719966752ba4b38720a4535">current</a>.<a class="code" href="struct_point.html#a8c779e11e694b20e0946105a9f5de842">x</a> + <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#ae1a4e97236e1e5f04d21fc9227b8c3a8">shape</a>[i].<a class="code" href="struct_point.html#a8c779e11e694b20e0946105a9f5de842">x</a>] = <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#a11fa34418f20b6613d0ceeea8fc71d25">color</a>;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        }</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <a class="code" href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b">nextTurn</a>();</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;}</div><div class="ttc" id="class_game_logic_html_a499d9b05317bb6a77bf3521f42a6638a"><div class="ttname"><a href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">GameLogic::block</a></div><div class="ttdeci">Block block</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00041">GameLogic.h:41</a></div></div>
+<div class="ttc" id="class_block_html_a947d677f5229eabb9ceb291e3552773d"><div class="ttname"><a href="class_block.html#a947d677f5229eabb9ceb291e3552773d">Block::moveDown</a></div><div class="ttdeci">void moveDown()</div><div class="ttdef"><b>Definition:</b> <a href="_block_8cpp_source.html#l00162">Block.cpp:162</a></div></div>
+<div class="ttc" id="class_game_logic_html_a70b7fcd97d321dfb9d2130f864ddac3b"><div class="ttname"><a href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b">GameLogic::nextTurn</a></div><div class="ttdeci">void nextTurn()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00201">GameLogic.cpp:201</a></div></div>
+<div class="ttc" id="class_block_html_a11fa34418f20b6613d0ceeea8fc71d25"><div class="ttname"><a href="class_block.html#a11fa34418f20b6613d0ceeea8fc71d25">Block::color</a></div><div class="ttdeci">int color</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00029">Block.h:29</a></div></div>
+<div class="ttc" id="class_block_html_aeb5dd312b719966752ba4b38720a4535"><div class="ttname"><a href="class_block.html#aeb5dd312b719966752ba4b38720a4535">Block::current</a></div><div class="ttdeci">Point current</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00025">Block.h:25</a></div></div>
+<div class="ttc" id="class_game_logic_html_a71071a20595279a580d18dfa60ed4a1c"><div class="ttname"><a href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">GameLogic::board</a></div><div class="ttdeci">char * board[HEIGHT]</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00022">GameLogic.h:22</a></div></div>
+<div class="ttc" id="struct_point_html_a2e1b5fb2b2a83571f5c0bc0f66a73cf7"><div class="ttname"><a href="struct_point.html#a2e1b5fb2b2a83571f5c0bc0f66a73cf7">Point::y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00011">Block.h:11</a></div></div>
+<div class="ttc" id="class_game_logic_html_a1c534033fe42c8af4fb0e11e3fed2cfa"><div class="ttname"><a href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa">GameLogic::isCollision</a></div><div class="ttdeci">bool isCollision()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00157">GameLogic.cpp:157</a></div></div>
+<div class="ttc" id="class_block_html_a8bf4fce7b2b837fd49726b6a7f17f4b0"><div class="ttname"><a href="class_block.html#a8bf4fce7b2b837fd49726b6a7f17f4b0">Block::moveUp</a></div><div class="ttdeci">void moveUp()</div><div class="ttdef"><b>Definition:</b> <a href="_block_8cpp_source.html#l00156">Block.cpp:156</a></div></div>
+<div class="ttc" id="class_block_html_ae1a4e97236e1e5f04d21fc9227b8c3a8"><div class="ttname"><a href="class_block.html#ae1a4e97236e1e5f04d21fc9227b8c3a8">Block::shape</a></div><div class="ttdeci">Point shape[4]</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00030">Block.h:30</a></div></div>
+<div class="ttc" id="struct_point_html_a8c779e11e694b20e0946105a9f5de842"><div class="ttname"><a href="struct_point.html#a8c779e11e694b20e0946105a9f5de842">Point::x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00011">Block.h:11</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a36b04a5ca335351249db8cc77019c216_cgraph.png" border="0" usemap="#class_game_logic_a36b04a5ca335351249db8cc77019c216_cgraph" alt=""/></div>
+<map name="class_game_logic_a36b04a5ca335351249db8cc77019c216_cgraph" id="class_game_logic_a36b04a5ca335351249db8cc77019c216_cgraph">
+<area shape="rect" id="node2" href="class_block.html#a947d677f5229eabb9ceb291e3552773d" title="Block::moveDown" alt="" coords="225,5,354,32"/>
+<area shape="rect" id="node3" href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa" title="GameLogic::isCollision" alt="" coords="411,31,567,57"/>
+<area shape="rect" id="node4" href="class_block.html#a8bf4fce7b2b837fd49726b6a7f17f4b0" title="Block::moveUp" alt="" coords="233,157,345,184"/>
+<area shape="rect" id="node5" href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b" title="GameLogic::nextTurn" alt="" coords="216,107,363,133"/>
+<area shape="rect" id="node6" href="class_block.html#a24e9792df444cc3cd9cd9c28a62f5abd" title="Block::refresh" alt="" coords="862,81,965,108"/>
+<area shape="rect" id="node11" href="class_game_logic.html#afabf48aab0520a7ecd576bfc178d4767" title="GameLogic::check" alt="" coords="423,537,554,564"/>
+<area shape="rect" id="node16" href="class_game_logic.html#a81fa5e44fb6dc431c926f7c3fd0b7cdb" title="GameLogic::refreshNextBlock" alt="" coords="815,284,1012,311"/>
+<area shape="rect" id="node20" href="class_game_logic.html#af6ba400e79f01e5c59f48f55273894e6" title="GameLogic::gameOver" alt="" coords="411,183,567,209"/>
+<area shape="rect" id="node7" href="class_block.html#ab2f8596ed64d7d4fc1ce6cbd739173de" title="Block::clear" alt="" coords="1060,132,1151,159"/>
+<area shape="rect" id="node10" href="class_block.html#a7ea913786e48c140a2a35ff03c35746c" title="Block::print" alt="" coords="1061,81,1149,108"/>
+<area shape="rect" id="node8" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51" title="printColorString" alt="" coords="1199,335,1311,361"/>
+<area shape="rect" id="node9" href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d" title="gotoxy" alt="" coords="1359,436,1420,463"/>
+<area shape="rect" id="node12" href="class_game_logic.html#aa94e4cc11eb878caf3b4889e267fd7d7" title="GameLogic::clearLine" alt="" coords="617,588,765,615"/>
+<area shape="rect" id="node13" href="class_game_logic.html#a5cc64703af4a64975fe24aa5c1d3c711" title="level system " alt="" coords="615,639,767,665"/>
+<area shape="rect" id="node15" href="class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef" title="GameLogic::refresh" alt="" coords="623,411,759,437"/>
+<area shape="rect" id="node14" href="class_game_logic.html#abf26417f7a1fff03e6639b8bd69490f0" title="GameLogic::gameClear" alt="" coords="834,639,993,665"/>
+<area shape="rect" id="node19" href="class_game_logic.html#a3f19ca1ad6a1c829afe571f7ac25d3c5" title="GameLogic::refreshPoint" alt="" coords="830,385,997,412"/>
+<area shape="rect" id="node17" href="class_block.html#a5ea55096829ff27961b989409283cd86" title="Block::clear" alt="" coords="1060,233,1151,260"/>
+<area shape="rect" id="node18" href="class_block.html#a6735096bf1a9678a688b98782bd1b226" title="Block::print" alt="" coords="1061,284,1149,311"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a36b04a5ca335351249db8cc77019c216_icgraph.png" border="0" usemap="#class_game_logic_a36b04a5ca335351249db8cc77019c216_icgraph" alt=""/></div>
+<map name="class_game_logic_a36b04a5ca335351249db8cc77019c216_icgraph" id="class_game_logic_a36b04a5ca335351249db8cc77019c216_icgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="216,5,339,32"/>
+<area shape="rect" id="node3" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="387,5,437,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0e6c1ee03971cf619212f8bb4d5fbc83"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameLogic::moveLeft </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00124">124</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                         {</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#af304df3662f2c6feec7cfc232246ef29">moveLeft</a>();</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa">isCollision</a>())</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#a13d1f87524fed8d686a4d478e41d5096">moveRight</a>();</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;}</div><div class="ttc" id="class_game_logic_html_a499d9b05317bb6a77bf3521f42a6638a"><div class="ttname"><a href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">GameLogic::block</a></div><div class="ttdeci">Block block</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00041">GameLogic.h:41</a></div></div>
+<div class="ttc" id="class_game_logic_html_a1c534033fe42c8af4fb0e11e3fed2cfa"><div class="ttname"><a href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa">GameLogic::isCollision</a></div><div class="ttdeci">bool isCollision()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00157">GameLogic.cpp:157</a></div></div>
+<div class="ttc" id="class_block_html_af304df3662f2c6feec7cfc232246ef29"><div class="ttname"><a href="class_block.html#af304df3662f2c6feec7cfc232246ef29">Block::moveLeft</a></div><div class="ttdeci">void moveLeft()</div><div class="ttdef"><b>Definition:</b> <a href="_block_8cpp_source.html#l00172">Block.cpp:172</a></div></div>
+<div class="ttc" id="class_block_html_a13d1f87524fed8d686a4d478e41d5096"><div class="ttname"><a href="class_block.html#a13d1f87524fed8d686a4d478e41d5096">Block::moveRight</a></div><div class="ttdeci">void moveRight()</div><div class="ttdef"><b>Definition:</b> <a href="_block_8cpp_source.html#l00168">Block.cpp:168</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a0e6c1ee03971cf619212f8bb4d5fbc83_cgraph.png" border="0" usemap="#class_game_logic_a0e6c1ee03971cf619212f8bb4d5fbc83_cgraph" alt=""/></div>
+<map name="class_game_logic_a0e6c1ee03971cf619212f8bb4d5fbc83_cgraph" id="class_game_logic_a0e6c1ee03971cf619212f8bb4d5fbc83_cgraph">
+<area shape="rect" id="node2" href="class_block.html#af304df3662f2c6feec7cfc232246ef29" title="Block::moveLeft" alt="" coords="223,5,341,32"/>
+<area shape="rect" id="node3" href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa" title="GameLogic::isCollision" alt="" coords="204,56,360,83"/>
+<area shape="rect" id="node4" href="class_block.html#a13d1f87524fed8d686a4d478e41d5096" title="Block::moveRight" alt="" coords="219,107,345,133"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a0e6c1ee03971cf619212f8bb4d5fbc83_icgraph.png" border="0" usemap="#class_game_logic_a0e6c1ee03971cf619212f8bb4d5fbc83_icgraph" alt=""/></div>
+<map name="class_game_logic_a0e6c1ee03971cf619212f8bb4d5fbc83_icgraph" id="class_game_logic_a0e6c1ee03971cf619212f8bb4d5fbc83_icgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="204,5,327,32"/>
+<area shape="rect" id="node3" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="375,5,425,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a6213333800f3aa800ea448ad3ee3ea7c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameLogic::moveRight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00130">130</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                          {</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#a13d1f87524fed8d686a4d478e41d5096">moveRight</a>();</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa">isCollision</a>())</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#af304df3662f2c6feec7cfc232246ef29">moveLeft</a>();</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;}</div><div class="ttc" id="class_game_logic_html_a499d9b05317bb6a77bf3521f42a6638a"><div class="ttname"><a href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">GameLogic::block</a></div><div class="ttdeci">Block block</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00041">GameLogic.h:41</a></div></div>
+<div class="ttc" id="class_game_logic_html_a1c534033fe42c8af4fb0e11e3fed2cfa"><div class="ttname"><a href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa">GameLogic::isCollision</a></div><div class="ttdeci">bool isCollision()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00157">GameLogic.cpp:157</a></div></div>
+<div class="ttc" id="class_block_html_af304df3662f2c6feec7cfc232246ef29"><div class="ttname"><a href="class_block.html#af304df3662f2c6feec7cfc232246ef29">Block::moveLeft</a></div><div class="ttdeci">void moveLeft()</div><div class="ttdef"><b>Definition:</b> <a href="_block_8cpp_source.html#l00172">Block.cpp:172</a></div></div>
+<div class="ttc" id="class_block_html_a13d1f87524fed8d686a4d478e41d5096"><div class="ttname"><a href="class_block.html#a13d1f87524fed8d686a4d478e41d5096">Block::moveRight</a></div><div class="ttdeci">void moveRight()</div><div class="ttdef"><b>Definition:</b> <a href="_block_8cpp_source.html#l00168">Block.cpp:168</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a6213333800f3aa800ea448ad3ee3ea7c_cgraph.png" border="0" usemap="#class_game_logic_a6213333800f3aa800ea448ad3ee3ea7c_cgraph" alt=""/></div>
+<map name="class_game_logic_a6213333800f3aa800ea448ad3ee3ea7c_cgraph" id="class_game_logic_a6213333800f3aa800ea448ad3ee3ea7c_cgraph">
+<area shape="rect" id="node2" href="class_block.html#a13d1f87524fed8d686a4d478e41d5096" title="Block::moveRight" alt="" coords="227,5,353,32"/>
+<area shape="rect" id="node3" href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa" title="GameLogic::isCollision" alt="" coords="212,56,368,83"/>
+<area shape="rect" id="node4" href="class_block.html#af304df3662f2c6feec7cfc232246ef29" title="Block::moveLeft" alt="" coords="231,107,349,133"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a6213333800f3aa800ea448ad3ee3ea7c_icgraph.png" border="0" usemap="#class_game_logic_a6213333800f3aa800ea448ad3ee3ea7c_icgraph" alt=""/></div>
+<map name="class_game_logic_a6213333800f3aa800ea448ad3ee3ea7c_icgraph" id="class_game_logic_a6213333800f3aa800ea448ad3ee3ea7c_icgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="212,5,335,32"/>
+<area shape="rect" id="node3" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="383,5,433,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a5cc64703af4a64975fe24aa5c1d3c711"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameLogic::nextLevel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>level system </p>
+<p>interval for make difference with level</p>
+<p>game clear if interval take negative value </p>
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00331">331</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;                          {</div><div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    <a class="code" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a>(30, 3, 0, <span class="stringliteral">&quot;LEVEL&quot;</span>);</div><div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    <span class="keywordtype">char</span> <a class="code" href="class_game_logic.html#a64ebe1cc14b91b935608ae4455fe3745">score</a>[10];</div><div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    sprintf(score, <span class="stringliteral">&quot;%2d&quot;</span>, <a class="code" href="class_game_logic.html#aca26b3a67b4bb5d5d477f9873826aae8">level</a>);</div><div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <a class="code" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a>(30, 4, 0, score);</div><div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    <a class="code" href="class_game_logic.html#ab630a474170a2878d0c5ba8556e3fb39">clearLines</a> = 0;</div><div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;</div><div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <a class="code" href="class_game_logic.html#ab9459c489b9c7bba90895756f373afc6">interval</a> -= 5000;</div><div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="class_game_logic.html#ab9459c489b9c7bba90895756f373afc6">interval</a> &lt;= 0) {</div><div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        <a class="code" href="class_game_logic.html#abf26417f7a1fff03e6639b8bd69490f0">gameClear</a>();</div><div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    }</div><div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;}</div><div class="ttc" id="class_game_logic_html_ab9459c489b9c7bba90895756f373afc6"><div class="ttname"><a href="class_game_logic.html#ab9459c489b9c7bba90895756f373afc6">GameLogic::interval</a></div><div class="ttdeci">int interval</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00019">GameLogic.h:19</a></div></div>
+<div class="ttc" id="class_game_logic_html_abf26417f7a1fff03e6639b8bd69490f0"><div class="ttname"><a href="class_game_logic.html#abf26417f7a1fff03e6639b8bd69490f0">GameLogic::gameClear</a></div><div class="ttdeci">void gameClear()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00198">GameLogic.cpp:198</a></div></div>
+<div class="ttc" id="class_game_logic_html_a64ebe1cc14b91b935608ae4455fe3745"><div class="ttname"><a href="class_game_logic.html#a64ebe1cc14b91b935608ae4455fe3745">GameLogic::score</a></div><div class="ttdeci">int score</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00017">GameLogic.h:17</a></div></div>
+<div class="ttc" id="class_game_logic_html_ab630a474170a2878d0c5ba8556e3fb39"><div class="ttname"><a href="class_game_logic.html#ab630a474170a2878d0c5ba8556e3fb39">GameLogic::clearLines</a></div><div class="ttdeci">int clearLines</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00020">GameLogic.h:20</a></div></div>
+<div class="ttc" id="class_game_logic_html_aca26b3a67b4bb5d5d477f9873826aae8"><div class="ttname"><a href="class_game_logic.html#aca26b3a67b4bb5d5d477f9873826aae8">GameLogic::level</a></div><div class="ttdeci">int level</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00055">GameLogic.h:55</a></div></div>
+<div class="ttc" id="myio_8cpp_html_afce36429cc875312f4476969820ebb51"><div class="ttname"><a href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a></div><div class="ttdeci">void printColorString(int x, int y, int color, char *str)</div><div class="ttdef"><b>Definition:</b> <a href="myio_8cpp_source.html#l00011">myio.cpp:11</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a5cc64703af4a64975fe24aa5c1d3c711_cgraph.png" border="0" usemap="#class_game_logic_a5cc64703af4a64975fe24aa5c1d3c711_cgraph" alt=""/></div>
+<map name="class_game_logic_a5cc64703af4a64975fe24aa5c1d3c711_cgraph" id="class_game_logic_a5cc64703af4a64975fe24aa5c1d3c711_cgraph">
+<area shape="rect" id="node2" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51" title="printColorString" alt="" coords="229,5,341,32"/>
+<area shape="rect" id="node4" href="class_game_logic.html#abf26417f7a1fff03e6639b8bd69490f0" title="GameLogic::gameClear" alt="" coords="205,56,364,83"/>
+<area shape="rect" id="node3" href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d" title="gotoxy" alt="" coords="412,5,473,32"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a5cc64703af4a64975fe24aa5c1d3c711_icgraph.png" border="0" usemap="#class_game_logic_a5cc64703af4a64975fe24aa5c1d3c711_icgraph" alt=""/></div>
+<map name="class_game_logic_a5cc64703af4a64975fe24aa5c1d3c711_icgraph" id="class_game_logic_a5cc64703af4a64975fe24aa5c1d3c711_icgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="789,32,912,59"/>
+<area shape="rect" id="node4" href="class_game_logic.html#afabf48aab0520a7ecd576bfc178d4767" title="GameLogic::check" alt="" coords="205,32,336,59"/>
+<area shape="rect" id="node3" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="960,32,1011,59"/>
+<area shape="rect" id="node5" href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b" title="GameLogic::nextTurn" alt="" coords="384,32,531,59"/>
+<area shape="rect" id="node6" href="class_game_logic.html#a36b04a5ca335351249db8cc77019c216" title="GameLogic::moveDown" alt="" coords="579,32,741,59"/>
+<area shape="rect" id="node7" href="class_game_logic.html#a90faee03fd4311eab796ae7dc582078d" title="GameLogic::drop" alt="" coords="599,83,721,110"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a70b7fcd97d321dfb9d2130f864ddac3b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameLogic::nextTurn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>보드에 저장</p>
+<p>새블럭 생성</p>
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00201">201</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;                         {</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 4; i++) {</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[<a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#aeb5dd312b719966752ba4b38720a4535">current</a>.<a class="code" href="struct_point.html#a2e1b5fb2b2a83571f5c0bc0f66a73cf7">y</a> + <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#ae1a4e97236e1e5f04d21fc9227b8c3a8">shape</a>[i].<a class="code" href="struct_point.html#a2e1b5fb2b2a83571f5c0bc0f66a73cf7">y</a>][<a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#aeb5dd312b719966752ba4b38720a4535">current</a>.<a class="code" href="struct_point.html#a8c779e11e694b20e0946105a9f5de842">x</a> + <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#ae1a4e97236e1e5f04d21fc9227b8c3a8">shape</a>[i].<a class="code" href="struct_point.html#a8c779e11e694b20e0946105a9f5de842">x</a>] = <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#a11fa34418f20b6613d0ceeea8fc71d25">color</a>;</div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    }</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#a24e9792df444cc3cd9cd9c28a62f5abd">refresh</a>();</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <a class="code" href="class_game_logic.html#afabf48aab0520a7ecd576bfc178d4767">check</a>(<a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>);</div><div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a> = <a class="code" href="class_game_logic.html#a42f7be1948bf9cf0a8ff05d7544f62bc">next</a>;</div><div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    <a class="code" href="class_game_logic.html#a42f7be1948bf9cf0a8ff05d7544f62bc">next</a> = <a class="code" href="class_block.html">Block</a>();</div><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <a class="code" href="class_game_logic.html#a81fa5e44fb6dc431c926f7c3fd0b7cdb">refreshNextBlock</a>();</div><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;</div><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa">isCollision</a>()) {</div><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <a class="code" href="class_game_logic.html#af6ba400e79f01e5c59f48f55273894e6">gameOver</a>();</div><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    }</div><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;}</div><div class="ttc" id="class_game_logic_html_a499d9b05317bb6a77bf3521f42a6638a"><div class="ttname"><a href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">GameLogic::block</a></div><div class="ttdeci">Block block</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00041">GameLogic.h:41</a></div></div>
+<div class="ttc" id="class_block_html_a11fa34418f20b6613d0ceeea8fc71d25"><div class="ttname"><a href="class_block.html#a11fa34418f20b6613d0ceeea8fc71d25">Block::color</a></div><div class="ttdeci">int color</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00029">Block.h:29</a></div></div>
+<div class="ttc" id="class_block_html_aeb5dd312b719966752ba4b38720a4535"><div class="ttname"><a href="class_block.html#aeb5dd312b719966752ba4b38720a4535">Block::current</a></div><div class="ttdeci">Point current</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00025">Block.h:25</a></div></div>
+<div class="ttc" id="class_game_logic_html_a71071a20595279a580d18dfa60ed4a1c"><div class="ttname"><a href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">GameLogic::board</a></div><div class="ttdeci">char * board[HEIGHT]</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00022">GameLogic.h:22</a></div></div>
+<div class="ttc" id="class_game_logic_html_afabf48aab0520a7ecd576bfc178d4767"><div class="ttname"><a href="class_game_logic.html#afabf48aab0520a7ecd576bfc178d4767">GameLogic::check</a></div><div class="ttdeci">void check(Block block)</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00225">GameLogic.cpp:225</a></div></div>
+<div class="ttc" id="class_block_html"><div class="ttname"><a href="class_block.html">Block</a></div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00014">Block.h:14</a></div></div>
+<div class="ttc" id="struct_point_html_a2e1b5fb2b2a83571f5c0bc0f66a73cf7"><div class="ttname"><a href="struct_point.html#a2e1b5fb2b2a83571f5c0bc0f66a73cf7">Point::y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00011">Block.h:11</a></div></div>
+<div class="ttc" id="class_game_logic_html_a42f7be1948bf9cf0a8ff05d7544f62bc"><div class="ttname"><a href="class_game_logic.html#a42f7be1948bf9cf0a8ff05d7544f62bc">GameLogic::next</a></div><div class="ttdeci">Block next</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00042">GameLogic.h:42</a></div></div>
+<div class="ttc" id="class_game_logic_html_a1c534033fe42c8af4fb0e11e3fed2cfa"><div class="ttname"><a href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa">GameLogic::isCollision</a></div><div class="ttdeci">bool isCollision()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00157">GameLogic.cpp:157</a></div></div>
+<div class="ttc" id="class_block_html_ae1a4e97236e1e5f04d21fc9227b8c3a8"><div class="ttname"><a href="class_block.html#ae1a4e97236e1e5f04d21fc9227b8c3a8">Block::shape</a></div><div class="ttdeci">Point shape[4]</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00030">Block.h:30</a></div></div>
+<div class="ttc" id="class_block_html_a24e9792df444cc3cd9cd9c28a62f5abd"><div class="ttname"><a href="class_block.html#a24e9792df444cc3cd9cd9c28a62f5abd">Block::refresh</a></div><div class="ttdeci">void refresh()</div><div class="ttdef"><b>Definition:</b> <a href="_block_8cpp_source.html#l00189">Block.cpp:189</a></div></div>
+<div class="ttc" id="class_game_logic_html_a81fa5e44fb6dc431c926f7c3fd0b7cdb"><div class="ttname"><a href="class_game_logic.html#a81fa5e44fb6dc431c926f7c3fd0b7cdb">GameLogic::refreshNextBlock</a></div><div class="ttdeci">void refreshNextBlock()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00307">GameLogic.cpp:307</a></div></div>
+<div class="ttc" id="struct_point_html_a8c779e11e694b20e0946105a9f5de842"><div class="ttname"><a href="struct_point.html#a8c779e11e694b20e0946105a9f5de842">Point::x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00011">Block.h:11</a></div></div>
+<div class="ttc" id="class_game_logic_html_af6ba400e79f01e5c59f48f55273894e6"><div class="ttname"><a href="class_game_logic.html#af6ba400e79f01e5c59f48f55273894e6">GameLogic::gameOver</a></div><div class="ttdeci">void gameOver()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00186">GameLogic.cpp:186</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a70b7fcd97d321dfb9d2130f864ddac3b_cgraph.png" border="0" usemap="#class_game_logic_a70b7fcd97d321dfb9d2130f864ddac3b_cgraph" alt=""/></div>
+<map name="class_game_logic_a70b7fcd97d321dfb9d2130f864ddac3b_cgraph" id="class_game_logic_a70b7fcd97d321dfb9d2130f864ddac3b_cgraph">
+<area shape="rect" id="node2" href="class_block.html#a24e9792df444cc3cd9cd9c28a62f5abd" title="Block::refresh" alt="" coords="651,56,754,83"/>
+<area shape="rect" id="node7" href="class_game_logic.html#afabf48aab0520a7ecd576bfc178d4767" title="GameLogic::check" alt="" coords="213,259,343,285"/>
+<area shape="rect" id="node12" href="class_game_logic.html#a81fa5e44fb6dc431c926f7c3fd0b7cdb" title="GameLogic::refreshNextBlock" alt="" coords="604,411,801,437"/>
+<area shape="rect" id="node16" href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa" title="GameLogic::isCollision" alt="" coords="200,461,356,488"/>
+<area shape="rect" id="node17" href="class_game_logic.html#af6ba400e79f01e5c59f48f55273894e6" title="GameLogic::gameOver" alt="" coords="200,335,356,361"/>
+<area shape="rect" id="node3" href="class_block.html#ab2f8596ed64d7d4fc1ce6cbd739173de" title="Block::clear" alt="" coords="849,56,940,83"/>
+<area shape="rect" id="node6" href="class_block.html#a7ea913786e48c140a2a35ff03c35746c" title="Block::print" alt="" coords="851,5,939,32"/>
+<area shape="rect" id="node4" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51" title="printColorString" alt="" coords="988,309,1100,336"/>
+<area shape="rect" id="node5" href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d" title="gotoxy" alt="" coords="1148,436,1209,463"/>
+<area shape="rect" id="node8" href="class_game_logic.html#aa94e4cc11eb878caf3b4889e267fd7d7" title="GameLogic::clearLine" alt="" coords="406,259,554,285"/>
+<area shape="rect" id="node9" href="class_game_logic.html#a5cc64703af4a64975fe24aa5c1d3c711" title="level system " alt="" coords="404,208,556,235"/>
+<area shape="rect" id="node11" href="class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef" title="GameLogic::refresh" alt="" coords="412,309,548,336"/>
+<area shape="rect" id="node10" href="class_game_logic.html#abf26417f7a1fff03e6639b8bd69490f0" title="GameLogic::gameClear" alt="" coords="623,208,782,235"/>
+<area shape="rect" id="node15" href="class_game_logic.html#a3f19ca1ad6a1c829afe571f7ac25d3c5" title="GameLogic::refreshPoint" alt="" coords="619,309,786,336"/>
+<area shape="rect" id="node13" href="class_block.html#a5ea55096829ff27961b989409283cd86" title="Block::clear" alt="" coords="849,512,940,539"/>
+<area shape="rect" id="node14" href="class_block.html#a6735096bf1a9678a688b98782bd1b226" title="Block::print" alt="" coords="851,411,939,437"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a70b7fcd97d321dfb9d2130f864ddac3b_icgraph.png" border="0" usemap="#class_game_logic_a70b7fcd97d321dfb9d2130f864ddac3b_icgraph" alt=""/></div>
+<map name="class_game_logic_a70b7fcd97d321dfb9d2130f864ddac3b_icgraph" id="class_game_logic_a70b7fcd97d321dfb9d2130f864ddac3b_icgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#a36b04a5ca335351249db8cc77019c216" title="GameLogic::moveDown" alt="" coords="200,5,363,32"/>
+<area shape="rect" id="node5" href="class_game_logic.html#a90faee03fd4311eab796ae7dc582078d" title="GameLogic::drop" alt="" coords="221,56,342,83"/>
+<area shape="rect" id="node3" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="411,31,533,57"/>
+<area shape="rect" id="node4" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="581,31,632,57"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad0f9f0e6c978a3b3fa1ff7a2a3d92563"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameLogic::printBlock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00103">103</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                           {</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#a24e9792df444cc3cd9cd9c28a62f5abd">refresh</a>();</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;}</div><div class="ttc" id="class_game_logic_html_a499d9b05317bb6a77bf3521f42a6638a"><div class="ttname"><a href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">GameLogic::block</a></div><div class="ttdeci">Block block</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00041">GameLogic.h:41</a></div></div>
+<div class="ttc" id="class_block_html_a24e9792df444cc3cd9cd9c28a62f5abd"><div class="ttname"><a href="class_block.html#a24e9792df444cc3cd9cd9c28a62f5abd">Block::refresh</a></div><div class="ttdeci">void refresh()</div><div class="ttdef"><b>Definition:</b> <a href="_block_8cpp_source.html#l00189">Block.cpp:189</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_ad0f9f0e6c978a3b3fa1ff7a2a3d92563_cgraph.png" border="0" usemap="#class_game_logic_ad0f9f0e6c978a3b3fa1ff7a2a3d92563_cgraph" alt=""/></div>
+<map name="class_game_logic_ad0f9f0e6c978a3b3fa1ff7a2a3d92563_cgraph" id="class_game_logic_ad0f9f0e6c978a3b3fa1ff7a2a3d92563_cgraph">
+<area shape="rect" id="node2" href="class_block.html#a24e9792df444cc3cd9cd9c28a62f5abd" title="Block::refresh" alt="" coords="208,31,311,57"/>
+<area shape="rect" id="node3" href="class_block.html#ab2f8596ed64d7d4fc1ce6cbd739173de" title="Block::clear" alt="" coords="359,5,449,32"/>
+<area shape="rect" id="node6" href="class_block.html#a7ea913786e48c140a2a35ff03c35746c" title="Block::print" alt="" coords="360,56,448,83"/>
+<area shape="rect" id="node4" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51" title="printColorString" alt="" coords="497,31,609,57"/>
+<area shape="rect" id="node5" href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d" title="gotoxy" alt="" coords="657,31,719,57"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_ad0f9f0e6c978a3b3fa1ff7a2a3d92563_icgraph.png" border="0" usemap="#class_game_logic_ad0f9f0e6c978a3b3fa1ff7a2a3d92563_icgraph" alt=""/></div>
+<map name="class_game_logic_ad0f9f0e6c978a3b3fa1ff7a2a3d92563_icgraph" id="class_game_logic_ad0f9f0e6c978a3b3fa1ff7a2a3d92563_icgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="208,5,331,32"/>
+<area shape="rect" id="node3" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="379,5,429,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aff831622dc54c1737e76b00d0d44ccef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameLogic::refresh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00284">284</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                        {</div><div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;</div><div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="_game_logic_8h.html#af728b7647e0b8c49832983a31f9a2e9b">HEIGHT</a>; i++) {</div><div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        <a class="code" href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d">gotoxy</a>(<a class="code" href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a>.x - 2, <a class="code" href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a>.y + i);</div><div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        putchar(<span class="charliteral">&#39;*&#39;</span>);</div><div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;</div><div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> x = 0; x &lt; <a class="code" href="_game_logic_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">WIDTH</a>; x++) {</div><div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[i][x]) {</div><div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                <a class="code" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a>(x * 2 + <a class="code" href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a>.x, <a class="code" href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a>.y + i, <a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[i][x], <a class="code" href="class_block.html#a4cb64c2c20884eed68c24c6147f68514">Block::BLOCK</a>);</div><div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;            } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                <a class="code" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a>(x * 2 + <a class="code" href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a>.x, <a class="code" href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a>.y + i, <a class="code" href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">board</a>[i][x], <a class="code" href="class_block.html#a11bcda9589b54be35a8905ca7be7310e">Block::CLEAR</a>);</div><div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;            }</div><div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        }</div><div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        <a class="code" href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d">gotoxy</a>(<a class="code" href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a>.x + WIDTH * 2, <a class="code" href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a>.y + i);</div><div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        putchar(<span class="charliteral">&#39;*&#39;</span>);</div><div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    }</div><div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    <a class="code" href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d">gotoxy</a>(<a class="code" href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a>.x - 2, <a class="code" href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a>.y + HEIGHT);</div><div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    printf(<span class="stringliteral">&quot;***********************&quot;</span>);</div><div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <a class="code" href="class_game_logic.html#a81fa5e44fb6dc431c926f7c3fd0b7cdb">refreshNextBlock</a>();</div><div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    <a class="code" href="class_game_logic.html#a3f19ca1ad6a1c829afe571f7ac25d3c5">refreshPoint</a>();</div><div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;</div><div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;}</div><div class="ttc" id="myio_8cpp_html_ae824443b3f661414ba1f2718e17fe97d"><div class="ttname"><a href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d">gotoxy</a></div><div class="ttdeci">void gotoxy(int x, int y)</div><div class="ttdef"><b>Definition:</b> <a href="myio_8cpp_source.html#l00026">myio.cpp:26</a></div></div>
+<div class="ttc" id="class_block_html_a4cb64c2c20884eed68c24c6147f68514"><div class="ttname"><a href="class_block.html#a4cb64c2c20884eed68c24c6147f68514">Block::BLOCK</a></div><div class="ttdeci">static const char * BLOCK</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00022">Block.h:22</a></div></div>
+<div class="ttc" id="class_game_logic_html_a3f19ca1ad6a1c829afe571f7ac25d3c5"><div class="ttname"><a href="class_game_logic.html#a3f19ca1ad6a1c829afe571f7ac25d3c5">GameLogic::refreshPoint</a></div><div class="ttdeci">void refreshPoint()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00317">GameLogic.cpp:317</a></div></div>
+<div class="ttc" id="_game_logic_8h_html_a9649ab8139c4c2ea5c93625b30d92a05"><div class="ttname"><a href="_game_logic_8h.html#a9649ab8139c4c2ea5c93625b30d92a05">WIDTH</a></div><div class="ttdeci">static const int WIDTH</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00012">GameLogic.h:12</a></div></div>
+<div class="ttc" id="class_game_logic_html_a71071a20595279a580d18dfa60ed4a1c"><div class="ttname"><a href="class_game_logic.html#a71071a20595279a580d18dfa60ed4a1c">GameLogic::board</a></div><div class="ttdeci">char * board[HEIGHT]</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00022">GameLogic.h:22</a></div></div>
+<div class="ttc" id="class_block_html_ad456f4794a480711f7057e1f270d93c2"><div class="ttname"><a href="class_block.html#ad456f4794a480711f7057e1f270d93c2">Block::zero</a></div><div class="ttdeci">static Point zero</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00024">Block.h:24</a></div></div>
+<div class="ttc" id="myio_8cpp_html_afce36429cc875312f4476969820ebb51"><div class="ttname"><a href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a></div><div class="ttdeci">void printColorString(int x, int y, int color, char *str)</div><div class="ttdef"><b>Definition:</b> <a href="myio_8cpp_source.html#l00011">myio.cpp:11</a></div></div>
+<div class="ttc" id="class_block_html_a11bcda9589b54be35a8905ca7be7310e"><div class="ttname"><a href="class_block.html#a11bcda9589b54be35a8905ca7be7310e">Block::CLEAR</a></div><div class="ttdeci">static const char * CLEAR</div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00023">Block.h:23</a></div></div>
+<div class="ttc" id="_game_logic_8h_html_af728b7647e0b8c49832983a31f9a2e9b"><div class="ttname"><a href="_game_logic_8h.html#af728b7647e0b8c49832983a31f9a2e9b">HEIGHT</a></div><div class="ttdeci">static const int HEIGHT</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00013">GameLogic.h:13</a></div></div>
+<div class="ttc" id="class_game_logic_html_a81fa5e44fb6dc431c926f7c3fd0b7cdb"><div class="ttname"><a href="class_game_logic.html#a81fa5e44fb6dc431c926f7c3fd0b7cdb">GameLogic::refreshNextBlock</a></div><div class="ttdeci">void refreshNextBlock()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00307">GameLogic.cpp:307</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_aff831622dc54c1737e76b00d0d44ccef_cgraph.png" border="0" usemap="#class_game_logic_aff831622dc54c1737e76b00d0d44ccef_cgraph" alt=""/></div>
+<map name="class_game_logic_aff831622dc54c1737e76b00d0d44ccef_cgraph" id="class_game_logic_aff831622dc54c1737e76b00d0d44ccef_cgraph">
+<area shape="rect" id="node2" href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d" title="gotoxy" alt="" coords="733,5,795,32"/>
+<area shape="rect" id="node3" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51" title="printColorString" alt="" coords="573,81,685,108"/>
+<area shape="rect" id="node4" href="class_game_logic.html#a81fa5e44fb6dc431c926f7c3fd0b7cdb" title="GameLogic::refreshNextBlock" alt="" coords="189,81,387,108"/>
+<area shape="rect" id="node7" href="class_game_logic.html#a3f19ca1ad6a1c829afe571f7ac25d3c5" title="GameLogic::refreshPoint" alt="" coords="205,157,371,184"/>
+<area shape="rect" id="node5" href="class_block.html#a5ea55096829ff27961b989409283cd86" title="Block::clear" alt="" coords="435,107,525,133"/>
+<area shape="rect" id="node6" href="class_block.html#a6735096bf1a9678a688b98782bd1b226" title="Block::print" alt="" coords="436,157,524,184"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_aff831622dc54c1737e76b00d0d44ccef_icgraph.png" border="0" usemap="#class_game_logic_aff831622dc54c1737e76b00d0d44ccef_icgraph" alt=""/></div>
+<map name="class_game_logic_aff831622dc54c1737e76b00d0d44ccef_icgraph" id="class_game_logic_aff831622dc54c1737e76b00d0d44ccef_icgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="799,38,921,65"/>
+<area shape="rect" id="node4" href="class_game_logic.html#af6ba400e79f01e5c59f48f55273894e6" title="GameLogic::gameOver" alt="" coords="189,38,345,65"/>
+<area shape="rect" id="node8" href="class_game_logic.html#afabf48aab0520a7ecd576bfc178d4767" title="GameLogic::check" alt="" coords="202,89,333,116"/>
+<area shape="rect" id="node3" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="969,38,1020,65"/>
+<area shape="rect" id="node5" href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b" title="GameLogic::nextTurn" alt="" coords="393,64,540,90"/>
+<area shape="rect" id="node6" href="class_game_logic.html#a36b04a5ca335351249db8cc77019c216" title="GameLogic::moveDown" alt="" coords="588,38,751,65"/>
+<area shape="rect" id="node7" href="class_game_logic.html#a90faee03fd4311eab796ae7dc582078d" title="GameLogic::drop" alt="" coords="609,89,730,116"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a81fa5e44fb6dc431c926f7c3fd0b7cdb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameLogic::refreshNextBlock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00307">307</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                                 {</div><div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <a class="code" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a>(30, 7, 0, <span class="stringliteral">&quot;┌────────┐&quot;</span>);</div><div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 4; i++) {</div><div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        <a class="code" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a>(30, 8 + i, 0, <span class="stringliteral">&quot;│        │&quot;</span>);</div><div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    }</div><div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <a class="code" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a>(30, 12, 0, <span class="stringliteral">&quot;└────────┘&quot;</span>);</div><div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    <a class="code" href="class_game_logic.html#a42f7be1948bf9cf0a8ff05d7544f62bc">next</a>.<a class="code" href="class_block.html#a5ea55096829ff27961b989409283cd86">clear</a>(31, 8);</div><div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <a class="code" href="class_game_logic.html#a42f7be1948bf9cf0a8ff05d7544f62bc">next</a>.<a class="code" href="class_block.html#a6735096bf1a9678a688b98782bd1b226">print</a>(31, 8);</div><div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;}</div><div class="ttc" id="class_block_html_a6735096bf1a9678a688b98782bd1b226"><div class="ttname"><a href="class_block.html#a6735096bf1a9678a688b98782bd1b226">Block::print</a></div><div class="ttdeci">void print(int x, int y)</div><div class="ttdef"><b>Definition:</b> <a href="_block_8cpp_source.html#l00196">Block.cpp:196</a></div></div>
+<div class="ttc" id="class_block_html_a5ea55096829ff27961b989409283cd86"><div class="ttname"><a href="class_block.html#a5ea55096829ff27961b989409283cd86">Block::clear</a></div><div class="ttdeci">void clear(int x, int y)</div><div class="ttdef"><b>Definition:</b> <a href="_block_8cpp_source.html#l00202">Block.cpp:202</a></div></div>
+<div class="ttc" id="class_game_logic_html_a42f7be1948bf9cf0a8ff05d7544f62bc"><div class="ttname"><a href="class_game_logic.html#a42f7be1948bf9cf0a8ff05d7544f62bc">GameLogic::next</a></div><div class="ttdeci">Block next</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00042">GameLogic.h:42</a></div></div>
+<div class="ttc" id="myio_8cpp_html_afce36429cc875312f4476969820ebb51"><div class="ttname"><a href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a></div><div class="ttdeci">void printColorString(int x, int y, int color, char *str)</div><div class="ttdef"><b>Definition:</b> <a href="myio_8cpp_source.html#l00011">myio.cpp:11</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a81fa5e44fb6dc431c926f7c3fd0b7cdb_cgraph.png" border="0" usemap="#class_game_logic_a81fa5e44fb6dc431c926f7c3fd0b7cdb_cgraph" alt=""/></div>
+<map name="class_game_logic_a81fa5e44fb6dc431c926f7c3fd0b7cdb_cgraph" id="class_game_logic_a81fa5e44fb6dc431c926f7c3fd0b7cdb_cgraph">
+<area shape="rect" id="node2" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51" title="printColorString" alt="" coords="389,20,501,47"/>
+<area shape="rect" id="node4" href="class_block.html#a5ea55096829ff27961b989409283cd86" title="Block::clear" alt="" coords="251,20,341,47"/>
+<area shape="rect" id="node5" href="class_block.html#a6735096bf1a9678a688b98782bd1b226" title="Block::print" alt="" coords="252,71,340,97"/>
+<area shape="rect" id="node3" href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d" title="gotoxy" alt="" coords="549,20,611,47"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a81fa5e44fb6dc431c926f7c3fd0b7cdb_icgraph.png" border="0" usemap="#class_game_logic_a81fa5e44fb6dc431c926f7c3fd0b7cdb_icgraph" alt=""/></div>
+<map name="class_game_logic_a81fa5e44fb6dc431c926f7c3fd0b7cdb_icgraph" id="class_game_logic_a81fa5e44fb6dc431c926f7c3fd0b7cdb_icgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b" title="GameLogic::nextTurn" alt="" coords="639,31,785,57"/>
+<area shape="rect" id="node7" href="class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef" title="GameLogic::refresh" alt="" coords="251,56,387,83"/>
+<area shape="rect" id="node3" href="class_game_logic.html#a36b04a5ca335351249db8cc77019c216" title="GameLogic::moveDown" alt="" coords="833,31,996,57"/>
+<area shape="rect" id="node6" href="class_game_logic.html#a90faee03fd4311eab796ae7dc582078d" title="GameLogic::drop" alt="" coords="854,81,975,108"/>
+<area shape="rect" id="node4" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="1044,81,1167,108"/>
+<area shape="rect" id="node5" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="1215,81,1265,108"/>
+<area shape="rect" id="node8" href="class_game_logic.html#af6ba400e79f01e5c59f48f55273894e6" title="GameLogic::gameOver" alt="" coords="435,31,591,57"/>
+<area shape="rect" id="node9" href="class_game_logic.html#afabf48aab0520a7ecd576bfc178d4767" title="GameLogic::check" alt="" coords="447,81,578,108"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a3f19ca1ad6a1c829afe571f7ac25d3c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameLogic::refreshPoint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00317">317</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                             {</div><div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <a class="code" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a>(30, 5, 0, <span class="stringliteral">&quot;SCORE&quot;</span>);</div><div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    <span class="keywordtype">char</span> <a class="code" href="class_game_logic.html#a64ebe1cc14b91b935608ae4455fe3745">score</a>[10];</div><div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    sprintf(score, <span class="stringliteral">&quot;%08d&quot;</span>, this-&gt;score);</div><div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <a class="code" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a>(30, 6, 0, score);</div><div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;}</div><div class="ttc" id="class_game_logic_html_a64ebe1cc14b91b935608ae4455fe3745"><div class="ttname"><a href="class_game_logic.html#a64ebe1cc14b91b935608ae4455fe3745">GameLogic::score</a></div><div class="ttdeci">int score</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00017">GameLogic.h:17</a></div></div>
+<div class="ttc" id="myio_8cpp_html_afce36429cc875312f4476969820ebb51"><div class="ttname"><a href="myio_8cpp.html#afce36429cc875312f4476969820ebb51">printColorString</a></div><div class="ttdeci">void printColorString(int x, int y, int color, char *str)</div><div class="ttdef"><b>Definition:</b> <a href="myio_8cpp_source.html#l00011">myio.cpp:11</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a3f19ca1ad6a1c829afe571f7ac25d3c5_cgraph.png" border="0" usemap="#class_game_logic_a3f19ca1ad6a1c829afe571f7ac25d3c5_cgraph" alt=""/></div>
+<map name="class_game_logic_a3f19ca1ad6a1c829afe571f7ac25d3c5_cgraph" id="class_game_logic_a3f19ca1ad6a1c829afe571f7ac25d3c5_cgraph">
+<area shape="rect" id="node2" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51" title="printColorString" alt="" coords="220,5,332,32"/>
+<area shape="rect" id="node3" href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d" title="gotoxy" alt="" coords="380,5,441,32"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_a3f19ca1ad6a1c829afe571f7ac25d3c5_icgraph.png" border="0" usemap="#class_game_logic_a3f19ca1ad6a1c829afe571f7ac25d3c5_icgraph" alt=""/></div>
+<map name="class_game_logic_a3f19ca1ad6a1c829afe571f7ac25d3c5_icgraph" id="class_game_logic_a3f19ca1ad6a1c829afe571f7ac25d3c5_icgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef" title="GameLogic::refresh" alt="" coords="220,38,356,65"/>
+<area shape="rect" id="node3" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="1013,38,1136,65"/>
+<area shape="rect" id="node5" href="class_game_logic.html#af6ba400e79f01e5c59f48f55273894e6" title="GameLogic::gameOver" alt="" coords="404,38,560,65"/>
+<area shape="rect" id="node9" href="class_game_logic.html#afabf48aab0520a7ecd576bfc178d4767" title="GameLogic::check" alt="" coords="417,89,547,116"/>
+<area shape="rect" id="node4" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="1184,38,1235,65"/>
+<area shape="rect" id="node6" href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b" title="GameLogic::nextTurn" alt="" coords="608,64,755,90"/>
+<area shape="rect" id="node7" href="class_game_logic.html#a36b04a5ca335351249db8cc77019c216" title="GameLogic::moveDown" alt="" coords="803,38,965,65"/>
+<area shape="rect" id="node8" href="class_game_logic.html#a90faee03fd4311eab796ae7dc582078d" title="GameLogic::drop" alt="" coords="823,89,945,116"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aeb7d3db8014da87a18ac744d9f77131d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameLogic::start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00047">47</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                      {</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="class_game_logic.html#ae09fc4252ad9db62b810117567783880">isNotGameOver</a>=<span class="keyword">true</span>;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a> = <a class="code" href="class_block.html">Block</a>();</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="class_game_logic.html#a42f7be1948bf9cf0a8ff05d7544f62bc">next</a> = <a class="code" href="class_block.html">Block</a>();</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="class_game_logic.html#a64ebe1cc14b91b935608ae4455fe3745">score</a> = 0;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="class_game_logic.html#ab9459c489b9c7bba90895756f373afc6">interval</a> = 105000;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="class_game_logic.html#ab630a474170a2878d0c5ba8556e3fb39">clearLines</a> = 0;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="class_game_logic.html#aca26b3a67b4bb5d5d477f9873826aae8">level</a> = 1;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="code" href="class_game_logic.html#a5cc64703af4a64975fe24aa5c1d3c711">nextLevel</a>();</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef">refresh</a>();</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">int</span> n;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> key;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    clock_t refresh1 = clock();</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    clock_t current = refresh1;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    clock_t blockDown = refresh1;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="class_game_logic.html#ae09fc4252ad9db62b810117567783880">isNotGameOver</a>) {</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        current = clock();</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">if</span> (current - refresh1 &gt; 16000) {</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            refresh1 = current;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <a class="code" href="class_game_logic.html#ad0f9f0e6c978a3b3fa1ff7a2a3d92563">printBlock</a>();</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        }</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">if</span> (current - blockDown &gt; <a class="code" href="class_game_logic.html#ab9459c489b9c7bba90895756f373afc6">interval</a>) {</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <a class="code" href="class_game_logic.html#a36b04a5ca335351249db8cc77019c216">moveDown</a>();</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            blockDown = current;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        }</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        n = getchar();</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">if</span> (n != EOF) {</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            key = n;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <span class="keywordflow">switch</span> (key) {</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39;Q&#39;</span>:</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                <a class="code" href="class_game_logic.html#ae09fc4252ad9db62b810117567783880">isNotGameOver</a>=<span class="keyword">false</span>;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                this-&gt;<a class="code" href="class_game_logic.html#a6a95fb9e16b411f1149dcdb463cdc3a5">isRun</a> = <span class="keyword">false</span>;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                <span class="keywordflow">break</span>;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="_game_logic_8cpp.html#a1965eaca47dbf3f87acdafc2208f04eb">UP</a>:</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <a class="code" href="class_game_logic.html#abd2dece64def6dc89e0b116fdca83483">transforse</a>();</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                <span class="keywordflow">break</span>;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="_game_logic_8cpp.html#a4193cd1c8c2e6ebd0e056fa2364a663f">DOWN</a>:</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                <a class="code" href="class_game_logic.html#a36b04a5ca335351249db8cc77019c216">moveDown</a>();</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                <span class="keywordflow">break</span>;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="_game_logic_8cpp.html#a80fb826a684cf3f0d306b22aa100ddac">RIGHT</a>:</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                <a class="code" href="class_game_logic.html#a6213333800f3aa800ea448ad3ee3ea7c">moveRight</a>();</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                <span class="keywordflow">break</span>;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="_game_logic_8cpp.html#a437ef08681e7210d6678427030446a54">LEFT</a>:</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                <a class="code" href="class_game_logic.html#a0e6c1ee03971cf619212f8bb4d5fbc83">moveLeft</a>();</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                <span class="keywordflow">break</span>;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39; &#39;</span>:</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                <a class="code" href="class_game_logic.html#a90faee03fd4311eab796ae7dc582078d">drop</a>();</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                <span class="keywordflow">break</span>;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="keywordflow">default</span>:</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                <span class="keywordflow">break</span>;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            }</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        }</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <a class="code" href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d">gotoxy</a>(80, 24);</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div><div class="ttc" id="class_game_logic_html_ab9459c489b9c7bba90895756f373afc6"><div class="ttname"><a href="class_game_logic.html#ab9459c489b9c7bba90895756f373afc6">GameLogic::interval</a></div><div class="ttdeci">int interval</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00019">GameLogic.h:19</a></div></div>
+<div class="ttc" id="myio_8cpp_html_ae824443b3f661414ba1f2718e17fe97d"><div class="ttname"><a href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d">gotoxy</a></div><div class="ttdeci">void gotoxy(int x, int y)</div><div class="ttdef"><b>Definition:</b> <a href="myio_8cpp_source.html#l00026">myio.cpp:26</a></div></div>
+<div class="ttc" id="class_game_logic_html_a499d9b05317bb6a77bf3521f42a6638a"><div class="ttname"><a href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">GameLogic::block</a></div><div class="ttdeci">Block block</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00041">GameLogic.h:41</a></div></div>
+<div class="ttc" id="class_game_logic_html_ad0f9f0e6c978a3b3fa1ff7a2a3d92563"><div class="ttname"><a href="class_game_logic.html#ad0f9f0e6c978a3b3fa1ff7a2a3d92563">GameLogic::printBlock</a></div><div class="ttdeci">void printBlock()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00103">GameLogic.cpp:103</a></div></div>
+<div class="ttc" id="class_game_logic_html_a6a95fb9e16b411f1149dcdb463cdc3a5"><div class="ttname"><a href="class_game_logic.html#a6a95fb9e16b411f1149dcdb463cdc3a5">GameLogic::isRun</a></div><div class="ttdeci">bool isRun</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00018">GameLogic.h:18</a></div></div>
+<div class="ttc" id="class_game_logic_html_a64ebe1cc14b91b935608ae4455fe3745"><div class="ttname"><a href="class_game_logic.html#a64ebe1cc14b91b935608ae4455fe3745">GameLogic::score</a></div><div class="ttdeci">int score</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00017">GameLogic.h:17</a></div></div>
+<div class="ttc" id="class_game_logic_html_abd2dece64def6dc89e0b116fdca83483"><div class="ttname"><a href="class_game_logic.html#abd2dece64def6dc89e0b116fdca83483">GameLogic::transforse</a></div><div class="ttdeci">void transforse()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00136">GameLogic.cpp:136</a></div></div>
+<div class="ttc" id="_game_logic_8cpp_html_a1965eaca47dbf3f87acdafc2208f04eb"><div class="ttname"><a href="_game_logic_8cpp.html#a1965eaca47dbf3f87acdafc2208f04eb">UP</a></div><div class="ttdeci">#define UP</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00014">GameLogic.cpp:14</a></div></div>
+<div class="ttc" id="class_game_logic_html_ab630a474170a2878d0c5ba8556e3fb39"><div class="ttname"><a href="class_game_logic.html#ab630a474170a2878d0c5ba8556e3fb39">GameLogic::clearLines</a></div><div class="ttdeci">int clearLines</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00020">GameLogic.h:20</a></div></div>
+<div class="ttc" id="_game_logic_8cpp_html_a4193cd1c8c2e6ebd0e056fa2364a663f"><div class="ttname"><a href="_game_logic_8cpp.html#a4193cd1c8c2e6ebd0e056fa2364a663f">DOWN</a></div><div class="ttdeci">#define DOWN</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00015">GameLogic.cpp:15</a></div></div>
+<div class="ttc" id="class_game_logic_html_a36b04a5ca335351249db8cc77019c216"><div class="ttname"><a href="class_game_logic.html#a36b04a5ca335351249db8cc77019c216">GameLogic::moveDown</a></div><div class="ttdeci">void moveDown()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00107">GameLogic.cpp:107</a></div></div>
+<div class="ttc" id="class_game_logic_html_aff831622dc54c1737e76b00d0d44ccef"><div class="ttname"><a href="class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef">GameLogic::refresh</a></div><div class="ttdeci">void refresh()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00284">GameLogic.cpp:284</a></div></div>
+<div class="ttc" id="class_game_logic_html_ae09fc4252ad9db62b810117567783880"><div class="ttname"><a href="class_game_logic.html#ae09fc4252ad9db62b810117567783880">GameLogic::isNotGameOver</a></div><div class="ttdeci">bool isNotGameOver</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00043">GameLogic.h:43</a></div></div>
+<div class="ttc" id="class_game_logic_html_a6213333800f3aa800ea448ad3ee3ea7c"><div class="ttname"><a href="class_game_logic.html#a6213333800f3aa800ea448ad3ee3ea7c">GameLogic::moveRight</a></div><div class="ttdeci">void moveRight()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00130">GameLogic.cpp:130</a></div></div>
+<div class="ttc" id="class_block_html"><div class="ttname"><a href="class_block.html">Block</a></div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00014">Block.h:14</a></div></div>
+<div class="ttc" id="class_game_logic_html_aca26b3a67b4bb5d5d477f9873826aae8"><div class="ttname"><a href="class_game_logic.html#aca26b3a67b4bb5d5d477f9873826aae8">GameLogic::level</a></div><div class="ttdeci">int level</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00055">GameLogic.h:55</a></div></div>
+<div class="ttc" id="class_game_logic_html_a42f7be1948bf9cf0a8ff05d7544f62bc"><div class="ttname"><a href="class_game_logic.html#a42f7be1948bf9cf0a8ff05d7544f62bc">GameLogic::next</a></div><div class="ttdeci">Block next</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00042">GameLogic.h:42</a></div></div>
+<div class="ttc" id="class_game_logic_html_a5cc64703af4a64975fe24aa5c1d3c711"><div class="ttname"><a href="class_game_logic.html#a5cc64703af4a64975fe24aa5c1d3c711">GameLogic::nextLevel</a></div><div class="ttdeci">void nextLevel()</div><div class="ttdoc">level system </div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00331">GameLogic.cpp:331</a></div></div>
+<div class="ttc" id="_game_logic_8cpp_html_a80fb826a684cf3f0d306b22aa100ddac"><div class="ttname"><a href="_game_logic_8cpp.html#a80fb826a684cf3f0d306b22aa100ddac">RIGHT</a></div><div class="ttdeci">#define RIGHT</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00016">GameLogic.cpp:16</a></div></div>
+<div class="ttc" id="class_game_logic_html_a90faee03fd4311eab796ae7dc582078d"><div class="ttname"><a href="class_game_logic.html#a90faee03fd4311eab796ae7dc582078d">GameLogic::drop</a></div><div class="ttdeci">void drop()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00147">GameLogic.cpp:147</a></div></div>
+<div class="ttc" id="_game_logic_8cpp_html_a437ef08681e7210d6678427030446a54"><div class="ttname"><a href="_game_logic_8cpp.html#a437ef08681e7210d6678427030446a54">LEFT</a></div><div class="ttdeci">#define LEFT</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00017">GameLogic.cpp:17</a></div></div>
+<div class="ttc" id="class_game_logic_html_a0e6c1ee03971cf619212f8bb4d5fbc83"><div class="ttname"><a href="class_game_logic.html#a0e6c1ee03971cf619212f8bb4d5fbc83">GameLogic::moveLeft</a></div><div class="ttdeci">void moveLeft()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00124">GameLogic.cpp:124</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_aeb7d3db8014da87a18ac744d9f77131d_cgraph.png" border="0" usemap="#class_game_logic_aeb7d3db8014da87a18ac744d9f77131d_cgraph" alt=""/></div>
+<map name="class_game_logic_aeb7d3db8014da87a18ac744d9f77131d_cgraph" id="class_game_logic_aeb7d3db8014da87a18ac744d9f77131d_cgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#a5cc64703af4a64975fe24aa5c1d3c711" title="level system " alt="" coords="797,93,949,120"/>
+<area shape="rect" id="node4" href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d" title="gotoxy" alt="" coords="1617,321,1679,348"/>
+<area shape="rect" id="node6" href="class_game_logic.html#aff831622dc54c1737e76b00d0d44ccef" title="GameLogic::refresh" alt="" coords="805,347,941,373"/>
+<area shape="rect" id="node11" href="class_game_logic.html#ad0f9f0e6c978a3b3fa1ff7a2a3d92563" title="GameLogic::printBlock" alt="" coords="180,195,335,221"/>
+<area shape="rect" id="node15" href="class_game_logic.html#a36b04a5ca335351249db8cc77019c216" title="GameLogic::moveDown" alt="" coords="176,347,339,373"/>
+<area shape="rect" id="node23" href="class_game_logic.html#abd2dece64def6dc89e0b116fdca83483" title="GameLogic::transforse" alt="" coords="387,752,541,779"/>
+<area shape="rect" id="node27" href="class_game_logic.html#a6213333800f3aa800ea448ad3ee3ea7c" title="GameLogic::moveRight" alt="" coords="178,575,337,601"/>
+<area shape="rect" id="node30" href="class_game_logic.html#a0e6c1ee03971cf619212f8bb4d5fbc83" title="GameLogic::moveLeft" alt="" coords="182,625,333,652"/>
+<area shape="rect" id="node31" href="class_game_logic.html#a90faee03fd4311eab796ae7dc582078d" title="GameLogic::drop" alt="" coords="197,397,318,424"/>
+<area shape="rect" id="node3" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51" title="printColorString" alt="" coords="1457,321,1569,348"/>
+<area shape="rect" id="node5" href="class_game_logic.html#abf26417f7a1fff03e6639b8bd69490f0" title="GameLogic::gameClear" alt="" coords="1017,43,1175,69"/>
+<area shape="rect" id="node7" href="class_game_logic.html#a81fa5e44fb6dc431c926f7c3fd0b7cdb" title="GameLogic::refreshNextBlock" alt="" coords="997,448,1195,475"/>
+<area shape="rect" id="node10" href="class_game_logic.html#a3f19ca1ad6a1c829afe571f7ac25d3c5" title="GameLogic::refreshPoint" alt="" coords="1243,296,1409,323"/>
+<area shape="rect" id="node8" href="class_block.html#a5ea55096829ff27961b989409283cd86" title="Block::clear" alt="" coords="1281,499,1371,525"/>
+<area shape="rect" id="node9" href="class_block.html#a6735096bf1a9678a688b98782bd1b226" title="Block::print" alt="" coords="1282,549,1370,576"/>
+<area shape="rect" id="node12" href="class_block.html#a24e9792df444cc3cd9cd9c28a62f5abd" title="Block::refresh" alt="" coords="618,195,721,221"/>
+<area shape="rect" id="node13" href="class_block.html#ab2f8596ed64d7d4fc1ce6cbd739173de" title="Block::clear" alt="" coords="1281,144,1371,171"/>
+<area shape="rect" id="node14" href="class_block.html#a7ea913786e48c140a2a35ff03c35746c" title="Block::print" alt="" coords="1052,195,1140,221"/>
+<area shape="rect" id="node16" href="class_block.html#a947d677f5229eabb9ceb291e3552773d" title="Block::moveDown" alt="" coords="399,397,529,424"/>
+<area shape="rect" id="node17" href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa" title="GameLogic::isCollision" alt="" coords="591,499,747,525"/>
+<area shape="rect" id="node18" href="class_block.html#a8bf4fce7b2b837fd49726b6a7f17f4b0" title="Block::moveUp" alt="" coords="408,448,520,475"/>
+<area shape="rect" id="node19" href="class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b" title="GameLogic::nextTurn" alt="" coords="391,296,537,323"/>
+<area shape="rect" id="node20" href="class_game_logic.html#afabf48aab0520a7ecd576bfc178d4767" title="GameLogic::check" alt="" coords="604,245,735,272"/>
+<area shape="rect" id="node22" href="class_game_logic.html#af6ba400e79f01e5c59f48f55273894e6" title="GameLogic::gameOver" alt="" coords="591,347,747,373"/>
+<area shape="rect" id="node21" href="class_game_logic.html#aa94e4cc11eb878caf3b4889e267fd7d7" title="GameLogic::clearLine" alt="" coords="799,296,947,323"/>
+<area shape="rect" id="node24" href="class_block.html#a9cc446ec51a125982c41e67af63059b0" title="Block::transpose" alt="" coords="609,727,729,753"/>
+<area shape="rect" id="node26" href="class_block.html#a18bfe78145650d1b13267000feea278b" title="Block::reversTranspose" alt="" coords="589,777,749,804"/>
+<area shape="rect" id="node25" href="class_block.html#a4ce6f20dfa2c216f77cbc1a7f2a6f3a2" title="Block::checkBound" alt="" coords="806,752,941,779"/>
+<area shape="rect" id="node28" href="class_block.html#a13d1f87524fed8d686a4d478e41d5096" title="Block::moveRight" alt="" coords="401,600,527,627"/>
+<area shape="rect" id="node29" href="class_block.html#af304df3662f2c6feec7cfc232246ef29" title="Block::moveLeft" alt="" coords="405,651,523,677"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_aeb7d3db8014da87a18ac744d9f77131d_icgraph.png" border="0" usemap="#class_game_logic_aeb7d3db8014da87a18ac744d9f77131d_icgraph" alt=""/></div>
+<map name="class_game_logic_aeb7d3db8014da87a18ac744d9f77131d_icgraph" id="class_game_logic_aeb7d3db8014da87a18ac744d9f77131d_icgraph">
+<area shape="rect" id="node2" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="176,5,227,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="abd2dece64def6dc89e0b116fdca83483"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameLogic::transforse </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a> 파일의 <a class="el" href="_game_logic_8cpp_source.html#l00136">136</a> 번째 라인에서 정의되었습니다.</p>
+<div class="fragment"><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                           {</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <a class="code" href="class_block.html">Block</a> temp = <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>;</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#a9cc446ec51a125982c41e67af63059b0">transpose</a>();</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa">isCollision</a>()) {</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#a18bfe78145650d1b13267000feea278b">reversTranspose</a>();</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        temp.<a class="code" href="class_block.html#a5ea55096829ff27961b989409283cd86">clear</a>();</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        <a class="code" href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">block</a>.<a class="code" href="class_block.html#a6735096bf1a9678a688b98782bd1b226">print</a>();</div><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    }</div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;}</div><div class="ttc" id="class_game_logic_html_a499d9b05317bb6a77bf3521f42a6638a"><div class="ttname"><a href="class_game_logic.html#a499d9b05317bb6a77bf3521f42a6638a">GameLogic::block</a></div><div class="ttdeci">Block block</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8h_source.html#l00041">GameLogic.h:41</a></div></div>
+<div class="ttc" id="class_block_html_a6735096bf1a9678a688b98782bd1b226"><div class="ttname"><a href="class_block.html#a6735096bf1a9678a688b98782bd1b226">Block::print</a></div><div class="ttdeci">void print(int x, int y)</div><div class="ttdef"><b>Definition:</b> <a href="_block_8cpp_source.html#l00196">Block.cpp:196</a></div></div>
+<div class="ttc" id="class_block_html_a9cc446ec51a125982c41e67af63059b0"><div class="ttname"><a href="class_block.html#a9cc446ec51a125982c41e67af63059b0">Block::transpose</a></div><div class="ttdeci">void transpose()</div><div class="ttdef"><b>Definition:</b> <a href="_block_8cpp_source.html#l00136">Block.cpp:136</a></div></div>
+<div class="ttc" id="class_block_html_a18bfe78145650d1b13267000feea278b"><div class="ttname"><a href="class_block.html#a18bfe78145650d1b13267000feea278b">Block::reversTranspose</a></div><div class="ttdeci">void reversTranspose()</div><div class="ttdef"><b>Definition:</b> <a href="_block_8cpp_source.html#l00145">Block.cpp:145</a></div></div>
+<div class="ttc" id="class_block_html_a5ea55096829ff27961b989409283cd86"><div class="ttname"><a href="class_block.html#a5ea55096829ff27961b989409283cd86">Block::clear</a></div><div class="ttdeci">void clear(int x, int y)</div><div class="ttdef"><b>Definition:</b> <a href="_block_8cpp_source.html#l00202">Block.cpp:202</a></div></div>
+<div class="ttc" id="class_block_html"><div class="ttname"><a href="class_block.html">Block</a></div><div class="ttdef"><b>Definition:</b> <a href="_block_8h_source.html#l00014">Block.h:14</a></div></div>
+<div class="ttc" id="class_game_logic_html_a1c534033fe42c8af4fb0e11e3fed2cfa"><div class="ttname"><a href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa">GameLogic::isCollision</a></div><div class="ttdeci">bool isCollision()</div><div class="ttdef"><b>Definition:</b> <a href="_game_logic_8cpp_source.html#l00157">GameLogic.cpp:157</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_abd2dece64def6dc89e0b116fdca83483_cgraph.png" border="0" usemap="#class_game_logic_abd2dece64def6dc89e0b116fdca83483_cgraph" alt=""/></div>
+<map name="class_game_logic_abd2dece64def6dc89e0b116fdca83483_cgraph" id="class_game_logic_abd2dece64def6dc89e0b116fdca83483_cgraph">
+<area shape="rect" id="node2" href="class_block.html#a9cc446ec51a125982c41e67af63059b0" title="Block::transpose" alt="" coords="228,5,348,32"/>
+<area shape="rect" id="node4" href="class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa" title="GameLogic::isCollision" alt="" coords="210,56,366,83"/>
+<area shape="rect" id="node5" href="class_block.html#a18bfe78145650d1b13267000feea278b" title="Block::reversTranspose" alt="" coords="208,107,368,133"/>
+<area shape="rect" id="node6" href="class_block.html#a5ea55096829ff27961b989409283cd86" title="Block::clear" alt="" coords="243,157,333,184"/>
+<area shape="rect" id="node9" href="class_block.html#a6735096bf1a9678a688b98782bd1b226" title="Block::print" alt="" coords="244,208,332,235"/>
+<area shape="rect" id="node3" href="class_block.html#a4ce6f20dfa2c216f77cbc1a7f2a6f3a2" title="Block::checkBound" alt="" coords="416,95,551,121"/>
+<area shape="rect" id="node7" href="myio_8cpp.html#afce36429cc875312f4476969820ebb51" title="printColorString" alt="" coords="427,171,539,197"/>
+<area shape="rect" id="node8" href="myio_8cpp.html#ae824443b3f661414ba1f2718e17fe97d" title="gotoxy" alt="" coords="599,171,660,197"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+이 함수를 호출하는 함수들에 대한 그래프입니다.:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_logic_abd2dece64def6dc89e0b116fdca83483_icgraph.png" border="0" usemap="#class_game_logic_abd2dece64def6dc89e0b116fdca83483_icgraph" alt=""/></div>
+<map name="class_game_logic_abd2dece64def6dc89e0b116fdca83483_icgraph" id="class_game_logic_abd2dece64def6dc89e0b116fdca83483_icgraph">
+<area shape="rect" id="node2" href="class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="208,5,331,32"/>
+<area shape="rect" id="node3" href="_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="379,5,429,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">멤버 데이타 문서화</h2>
+<a class="anchor" id="a499d9b05317bb6a77bf3521f42a6638a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_block.html">Block</a> GameLogic::block</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8h_source.html">GameLogic.h</a> 파일의 <a class="el" href="_game_logic_8h_source.html#l00041">41</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<a class="anchor" id="a71071a20595279a580d18dfa60ed4a1c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* GameLogic::board[<a class="el" href="_game_logic_8h.html#af728b7647e0b8c49832983a31f9a2e9b">HEIGHT</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8h_source.html">GameLogic.h</a> 파일의 <a class="el" href="_game_logic_8h_source.html#l00022">22</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab630a474170a2878d0c5ba8556e3fb39"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameLogic::clearLines</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8h_source.html">GameLogic.h</a> 파일의 <a class="el" href="_game_logic_8h_source.html#l00020">20</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab9459c489b9c7bba90895756f373afc6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameLogic::interval</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8h_source.html">GameLogic.h</a> 파일의 <a class="el" href="_game_logic_8h_source.html#l00019">19</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae09fc4252ad9db62b810117567783880"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameLogic::isNotGameOver</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8h_source.html">GameLogic.h</a> 파일의 <a class="el" href="_game_logic_8h_source.html#l00043">43</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6a95fb9e16b411f1149dcdb463cdc3a5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameLogic::isRun</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8h_source.html">GameLogic.h</a> 파일의 <a class="el" href="_game_logic_8h_source.html#l00018">18</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<a class="anchor" id="aca26b3a67b4bb5d5d477f9873826aae8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameLogic::level</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8h_source.html">GameLogic.h</a> 파일의 <a class="el" href="_game_logic_8h_source.html#l00055">55</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<a class="anchor" id="a42f7be1948bf9cf0a8ff05d7544f62bc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_block.html">Block</a> GameLogic::next</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8h_source.html">GameLogic.h</a> 파일의 <a class="el" href="_game_logic_8h_source.html#l00042">42</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<a class="anchor" id="a64ebe1cc14b91b935608ae4455fe3745"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameLogic::score</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="_game_logic_8h_source.html">GameLogic.h</a> 파일의 <a class="el" href="_game_logic_8h_source.html#l00017">17</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<hr/>이 클래스에 대한 문서화 페이지는 다음의 파일들로부터 생성되었습니다.:<ul>
+<li><a class="el" href="_game_logic_8h_source.html">GameLogic.h</a></li>
+<li><a class="el" href="_game_logic_8cpp_source.html">GameLogic.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_game_logic.html">GameLogic</a></li>
+    <li class="footer">다음에 의해 생성됨 : 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

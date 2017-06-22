@@ -1,0 +1,149 @@
+\hypertarget{myio_8cpp}{}\section{myio.\+cpp 파일 참조}
+\label{myio_8cpp}\index{myio.\+cpp@{myio.\+cpp}}
+
+
+user interface  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}myio.\+h\char`\"{}}\\*
+myio.\+cpp에 대한 include 의존 그래프
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=157pt]{myio_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{함수}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{myio_8cpp_afce36429cc875312f4476969820ebb51}{print\+Color\+String} (int x, int y, int color, char $\ast$str)
+\item 
+void \hyperlink{myio_8cpp_ad0bfad3f8841aaa6a282a095d5121cf1}{print\+Color\+String} (int x, int y, int color, const char $\ast$str)
+\item 
+void \hyperlink{myio_8cpp_ae824443b3f661414ba1f2718e17fe97d}{gotoxy} (int x, int y)
+\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+user interface 
+
+
+
+\subsection{함수 문서화}
+\index{myio.\+cpp@{myio.\+cpp}!gotoxy@{gotoxy}}
+\index{gotoxy@{gotoxy}!myio.\+cpp@{myio.\+cpp}}
+\subsubsection[{\texorpdfstring{gotoxy(int x, int y)}{gotoxy(int x, int y)}}]{\setlength{\rightskip}{0pt plus 5cm}void gotoxy (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}\hypertarget{myio_8cpp_ae824443b3f661414ba1f2718e17fe97d}{}\label{myio_8cpp_ae824443b3f661414ba1f2718e17fe97d}
+
+
+myio.\+cpp 파일의 26 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+26                           \{
+27     printf(\textcolor{stringliteral}{"\(\backslash\)033[%d;%df"}, y, x);
+28     fflush(stdout);
+29 \}
+\end{DoxyCode}
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{myio_8cpp_ae824443b3f661414ba1f2718e17fe97d_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{myio.\+cpp@{myio.\+cpp}!print\+Color\+String@{print\+Color\+String}}
+\index{print\+Color\+String@{print\+Color\+String}!myio.\+cpp@{myio.\+cpp}}
+\subsubsection[{\texorpdfstring{print\+Color\+String(int x, int y, int color, char $\ast$str)}{printColorString(int x, int y, int color, char *str)}}]{\setlength{\rightskip}{0pt plus 5cm}void print\+Color\+String (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y, }
+\item[{int}]{color, }
+\item[{char $\ast$}]{str}
+\end{DoxyParamCaption}
+)}\hypertarget{myio_8cpp_afce36429cc875312f4476969820ebb51}{}\label{myio_8cpp_afce36429cc875312f4476969820ebb51}
+
+
+myio.\+cpp 파일의 11 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+11                                                            \{
+12     \textcolor{keywordflow}{if} ((color >= 40 && color <= 47) || color == 0) \{
+13         \hyperlink{myio_8cpp_ae824443b3f661414ba1f2718e17fe97d}{gotoxy}(x, y);
+14         printf(\textcolor{stringliteral}{"\(\backslash\)033[%dm%s\(\backslash\)033[0m"}, color, str);
+15 
+16     \}
+17 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{myio_8cpp_afce36429cc875312f4476969820ebb51_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+이 함수를 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{myio_8cpp_afce36429cc875312f4476969820ebb51_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{myio.\+cpp@{myio.\+cpp}!print\+Color\+String@{print\+Color\+String}}
+\index{print\+Color\+String@{print\+Color\+String}!myio.\+cpp@{myio.\+cpp}}
+\subsubsection[{\texorpdfstring{print\+Color\+String(int x, int y, int color, const char $\ast$str)}{printColorString(int x, int y, int color, const char *str)}}]{\setlength{\rightskip}{0pt plus 5cm}void print\+Color\+String (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y, }
+\item[{int}]{color, }
+\item[{const char $\ast$}]{str}
+\end{DoxyParamCaption}
+)}\hypertarget{myio_8cpp_ad0bfad3f8841aaa6a282a095d5121cf1}{}\label{myio_8cpp_ad0bfad3f8841aaa6a282a095d5121cf1}
+
+
+myio.\+cpp 파일의 18 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+18                                                                  \{
+19     \textcolor{keywordflow}{if} ((color >= 40 && color <= 47) || color == 0) \{
+20         \hyperlink{myio_8cpp_ae824443b3f661414ba1f2718e17fe97d}{gotoxy}(x, y);
+21         printf(\textcolor{stringliteral}{"\(\backslash\)033[%dm%s\(\backslash\)033[0m"}, color, str);
+22 
+23     \}
+24 \}
+\end{DoxyCode}
+
+
+이 함수 내부에서 호출하는 함수들에 대한 그래프입니다.\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{myio_8cpp_ad0bfad3f8841aaa6a282a095d5121cf1_cgraph}
+\end{center}
+\end{figure}
+
+

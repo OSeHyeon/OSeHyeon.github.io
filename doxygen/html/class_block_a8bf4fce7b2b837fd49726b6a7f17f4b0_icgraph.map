@@ -1,0 +1,6 @@
+<map id="Block::moveUp" name="Block::moveUp">
+<area shape="rect" id="node2" href="$class_game_logic.html#a36b04a5ca335351249db8cc77019c216" title="GameLogic::moveDown" alt="" coords="165,5,328,32"/>
+<area shape="rect" id="node5" href="$class_game_logic.html#a90faee03fd4311eab796ae7dc582078d" title="GameLogic::drop" alt="" coords="186,56,307,83"/>
+<area shape="rect" id="node3" href="$class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="376,31,499,57"/>
+<area shape="rect" id="node4" href="$_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="547,31,597,57"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="GameLogic::check" name="GameLogic::check">
+<area shape="rect" id="node2" href="$class_game_logic.html#a70b7fcd97d321dfb9d2130f864ddac3b" title="GameLogic::nextTurn" alt="" coords="184,31,331,57"/>
+<area shape="rect" id="node3" href="$class_game_logic.html#a36b04a5ca335351249db8cc77019c216" title="GameLogic::moveDown" alt="" coords="379,5,541,32"/>
+<area shape="rect" id="node6" href="$class_game_logic.html#a90faee03fd4311eab796ae7dc582078d" title="GameLogic::drop" alt="" coords="399,56,521,83"/>
+<area shape="rect" id="node4" href="$class_game_logic.html#aeb7d3db8014da87a18ac744d9f77131d" title="GameLogic::start" alt="" coords="589,31,712,57"/>
+<area shape="rect" id="node5" href="$_tetris_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="760,31,811,57"/>
+</map>

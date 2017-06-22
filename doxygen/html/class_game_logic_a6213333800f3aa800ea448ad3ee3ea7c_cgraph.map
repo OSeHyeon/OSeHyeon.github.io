@@ -1,0 +1,5 @@
+<map id="GameLogic::moveRight" name="GameLogic::moveRight">
+<area shape="rect" id="node2" href="$class_block.html#a13d1f87524fed8d686a4d478e41d5096" title="Block::moveRight" alt="" coords="227,5,353,32"/>
+<area shape="rect" id="node3" href="$class_game_logic.html#a1c534033fe42c8af4fb0e11e3fed2cfa" title="GameLogic::isCollision" alt="" coords="212,56,368,83"/>
+<area shape="rect" id="node4" href="$class_block.html#af304df3662f2c6feec7cfc232246ef29" title="Block::moveLeft" alt="" coords="231,107,349,133"/>
+</map>
