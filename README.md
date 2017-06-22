@@ -1,8 +1,8 @@
-## Term Project Tetris
+# Term Project Tetris
 
 Tetris for linux
 
-### How to move
+## How to move
 
 move with keyboard UP DOWN LEFT RIGHT
 
@@ -15,6 +15,9 @@ LEFT for left move
 RIGHT for right move
 
 
-### Play video
+## Play video
 
 https://youtu.be/KMgdPMkN2Kk
+
+## Doxygen
+https://github.com/OSeHyeon/OSeHyeon.github.io/tree/master/doxygen
